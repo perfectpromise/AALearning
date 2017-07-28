@@ -7,6 +7,8 @@
 //
 
 #import "RuntimeCtrl.h"
+#import <objc/runtime.h>
+#import <objc/message.h>
 
 @interface RuntimeCtrl ()
 
@@ -17,6 +19,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+
+    /*消息发送：[self sendMsg:@"test"]*/
+    objc_msgSend(self, @selector(sendMsg:),@"test");
+}
+
+- (void)sendMsg:(NSString *)test{
+    
+    NSLog(@"Runtime函数调用:%@",test);
 }
 
 - (void)didReceiveMemoryWarning {
