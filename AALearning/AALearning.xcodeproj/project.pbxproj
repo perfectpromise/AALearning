@@ -48,7 +48,11 @@
 		CDD9A1251F2ADFF9006B1594 /* ClassDumpCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A1241F2ADFF9006B1594 /* ClassDumpCtrl.m */; };
 		CDD9A1281F2AE003006B1594 /* FishHookCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A1271F2AE003006B1594 /* FishHookCtrl.m */; };
 		CDD9A12B1F2AE00E006B1594 /* GCCCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A12A1F2AE00E006B1594 /* GCCCtrl.m */; };
-		CDD9A12E1F2B08AF006B1594 /* RespBase.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A12D1F2B08AF006B1594 /* RespBase.m */; };
+		CDD9A1371F2B336E006B1594 /* NSObject+JsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A1341F2B336E006B1594 /* NSObject+JsonModel.m */; };
+		CDD9A13E1F2B342F006B1594 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A13D1F2B342F006B1594 /* TestModel.m */; };
+		CDD9A1411F2B3453006B1594 /* TestMsgSend.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A1401F2B3453006B1594 /* TestMsgSend.m */; };
+		CDD9A1461F2B383D006B1594 /* Monkey.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A1431F2B383D006B1594 /* Monkey.m */; };
+		CDD9A1471F2B383D006B1594 /* Bird.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A1451F2B383D006B1594 /* Bird.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -133,8 +137,16 @@
 		CDD9A1271F2AE003006B1594 /* FishHookCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FishHookCtrl.m; sourceTree = "<group>"; };
 		CDD9A1291F2AE00E006B1594 /* GCCCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCCCtrl.h; sourceTree = "<group>"; };
 		CDD9A12A1F2AE00E006B1594 /* GCCCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCCCtrl.m; sourceTree = "<group>"; };
-		CDD9A12C1F2B08AF006B1594 /* RespBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RespBase.h; sourceTree = "<group>"; };
-		CDD9A12D1F2B08AF006B1594 /* RespBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RespBase.m; sourceTree = "<group>"; };
+		CDD9A1331F2B336E006B1594 /* NSObject+JsonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JsonModel.h"; sourceTree = "<group>"; };
+		CDD9A1341F2B336E006B1594 /* NSObject+JsonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JsonModel.m"; sourceTree = "<group>"; };
+		CDD9A13C1F2B342F006B1594 /* TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		CDD9A13D1F2B342F006B1594 /* TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
+		CDD9A13F1F2B3453006B1594 /* TestMsgSend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestMsgSend.h; sourceTree = "<group>"; };
+		CDD9A1401F2B3453006B1594 /* TestMsgSend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestMsgSend.m; sourceTree = "<group>"; };
+		CDD9A1421F2B383D006B1594 /* Monkey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Monkey.h; sourceTree = "<group>"; };
+		CDD9A1431F2B383D006B1594 /* Monkey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Monkey.m; sourceTree = "<group>"; };
+		CDD9A1441F2B383D006B1594 /* Bird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bird.h; sourceTree = "<group>"; };
+		CDD9A1451F2B383D006B1594 /* Bird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bird.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -454,11 +466,13 @@
 		CDD9A0C61F2ADBF3006B1594 /* RunTime */ = {
 			isa = PBXGroup;
 			children = (
-				CDD9A0C71F2ADBF3006B1594 /* AssociatedObjects */,
 				CDD9A0CA1F2ADBF3006B1594 /* RuntimeCtrl.h */,
 				CDD9A0CB1F2ADBF3006B1594 /* RuntimeCtrl.m */,
-				CDD9A12C1F2B08AF006B1594 /* RespBase.h */,
-				CDD9A12D1F2B08AF006B1594 /* RespBase.m */,
+				CDD9A0C71F2ADBF3006B1594 /* AssociatedObjects */,
+				CDD9A1321F2B335A006B1594 /* 字典与模型互转（自动归档） */,
+				CDD9A1391F2B33EB006B1594 /* 自动归档 */,
+				CDD9A13B1F2B3407006B1594 /* objc_msgSend使用 */,
+				CDD9A13A1F2B33F5006B1594 /* 动态方法解析 */,
 			);
 			path = RunTime;
 			sourceTree = "<group>";
@@ -515,6 +529,45 @@
 				CDD9A1181F2ADFC8006B1594 /* VideoCtrl.m */,
 			);
 			path = Video;
+			sourceTree = "<group>";
+		};
+		CDD9A1321F2B335A006B1594 /* 字典与模型互转（自动归档） */ = {
+			isa = PBXGroup;
+			children = (
+				CDD9A1331F2B336E006B1594 /* NSObject+JsonModel.h */,
+				CDD9A1341F2B336E006B1594 /* NSObject+JsonModel.m */,
+			);
+			name = "字典与模型互转（自动归档）";
+			path = "字典与模型互转";
+			sourceTree = "<group>";
+		};
+		CDD9A1391F2B33EB006B1594 /* 自动归档 */ = {
+			isa = PBXGroup;
+			children = (
+				CDD9A13C1F2B342F006B1594 /* TestModel.h */,
+				CDD9A13D1F2B342F006B1594 /* TestModel.m */,
+			);
+			path = "自动归档";
+			sourceTree = "<group>";
+		};
+		CDD9A13A1F2B33F5006B1594 /* 动态方法解析 */ = {
+			isa = PBXGroup;
+			children = (
+				CDD9A1421F2B383D006B1594 /* Monkey.h */,
+				CDD9A1431F2B383D006B1594 /* Monkey.m */,
+				CDD9A1441F2B383D006B1594 /* Bird.h */,
+				CDD9A1451F2B383D006B1594 /* Bird.m */,
+			);
+			path = "动态方法解析";
+			sourceTree = "<group>";
+		};
+		CDD9A13B1F2B3407006B1594 /* objc_msgSend使用 */ = {
+			isa = PBXGroup;
+			children = (
+				CDD9A13F1F2B3453006B1594 /* TestMsgSend.h */,
+				CDD9A1401F2B3453006B1594 /* TestMsgSend.m */,
+			);
+			path = "objc_msgSend使用";
 			sourceTree = "<group>";
 		};
 		FEB2B339A95F827C313C46AC /* Pods */ = {
@@ -647,6 +700,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDD9A13E1F2B342F006B1594 /* TestModel.m in Sources */,
 				CDD9A1041F2ADF76006B1594 /* AFNetworkCtrl.m in Sources */,
 				CDD9A0E31F2ADEF1006B1594 /* GCDCtrl.m in Sources */,
 				CDD9A11C1F2ADFD9006B1594 /* CoreBluetoothCtrl.m in Sources */,
@@ -656,6 +710,7 @@
 				CDD9A11F1F2ADFE3006B1594 /* ARKitCtrl.m in Sources */,
 				CDD9A0E91F2ADF0A006B1594 /* MultiThreadCtrl.m in Sources */,
 				CDD9A1251F2ADFF9006B1594 /* ClassDumpCtrl.m in Sources */,
+				CDD9A1461F2B383D006B1594 /* Monkey.m in Sources */,
 				CDD9A1131F2ADFB0006B1594 /* SwiftCtrl.m in Sources */,
 				CDD9A0F51F2ADF39006B1594 /* Quartz2DCtrl.m in Sources */,
 				CDD9A1011F2ADF6A006B1594 /* SDWebImageCtrl.m in Sources */,
@@ -663,7 +718,9 @@
 				CDD9A0D41F2ADBF3006B1594 /* ResponderChainCtrl.m in Sources */,
 				CDD9A0E01F2ADEAA006B1594 /* RegularExpressionCtrl.m in Sources */,
 				CDD9A0D71F2ADBF3006B1594 /* RuntimeCtrl.m in Sources */,
+				CDD9A1411F2B3453006B1594 /* TestMsgSend.m in Sources */,
 				CDD9A0F81F2ADF46006B1594 /* SpringCtrl.m in Sources */,
+				CDD9A1371F2B336E006B1594 /* NSObject+JsonModel.m in Sources */,
 				CDD9A10D1F2ADF99006B1594 /* UMLCtrl.m in Sources */,
 				CDD9A1071F2ADF82006B1594 /* InstrumentCtrl.m in Sources */,
 				CDD9A10A1F2ADF8E006B1594 /* MVVMCtrl.m in Sources */,
@@ -681,9 +738,9 @@
 				CDD9A0D11F2ADBF3006B1594 /* MethodSwizzlingCtrl.m in Sources */,
 				CDD9A0E61F2ADEFE006B1594 /* BlockCtrl.m in Sources */,
 				CDD9A0EF1F2ADF21006B1594 /* CoreTextCtrl.m in Sources */,
+				CDD9A1471F2B383D006B1594 /* Bird.m in Sources */,
 				CDD9A0D21F2ADBF3006B1594 /* NSObject+Swizzle.m in Sources */,
 				CDD9A1221F2ADFED006B1594 /* CoreNFCCtrl.m in Sources */,
-				CDD9A12E1F2B08AF006B1594 /* RespBase.m in Sources */,
 				CDD9A12B1F2AE00E006B1594 /* GCCCtrl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
