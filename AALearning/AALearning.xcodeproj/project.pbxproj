@@ -13,6 +13,13 @@
 		CD7410461F2AD54D006AFCB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7410441F2AD54D006AFCB8 /* Main.storyboard */; };
 		CD7410481F2AD54D006AFCB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7410471F2AD54D006AFCB8 /* Assets.xcassets */; };
 		CD74104B1F2AD54D006AFCB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7410491F2AD54D006AFCB8 /* LaunchScreen.storyboard */; };
+		CDD9A0D11F2ADBF3006B1594 /* MethodSwizzlingCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A0B61F2ADBF3006B1594 /* MethodSwizzlingCtrl.m */; };
+		CDD9A0D21F2ADBF3006B1594 /* NSObject+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A0B81F2ADBF3006B1594 /* NSObject+Swizzle.m */; };
+		CDD9A0D31F2ADBF3006B1594 /* UIViewController+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A0BA1F2ADBF3006B1594 /* UIViewController+Swizzle.m */; };
+		CDD9A0D41F2ADBF3006B1594 /* ResponderChainCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A0C21F2ADBF3006B1594 /* ResponderChainCtrl.m */; };
+		CDD9A0D51F2ADBF3006B1594 /* UIView+Responder.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A0C41F2ADBF3006B1594 /* UIView+Responder.m */; };
+		CDD9A0D61F2ADBF3006B1594 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A0C91F2ADBF3006B1594 /* NSObject+Property.m */; };
+		CDD9A0D71F2ADBF3006B1594 /* RuntimeCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A0CB1F2ADBF3006B1594 /* RuntimeCtrl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,20 @@
 		CD7410471F2AD54D006AFCB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD74104A1F2AD54D006AFCB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD74104C1F2AD54D006AFCB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDD9A0B51F2ADBF3006B1594 /* MethodSwizzlingCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodSwizzlingCtrl.h; sourceTree = "<group>"; };
+		CDD9A0B61F2ADBF3006B1594 /* MethodSwizzlingCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodSwizzlingCtrl.m; sourceTree = "<group>"; };
+		CDD9A0B71F2ADBF3006B1594 /* NSObject+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzle.h"; sourceTree = "<group>"; };
+		CDD9A0B81F2ADBF3006B1594 /* NSObject+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzle.m"; sourceTree = "<group>"; };
+		CDD9A0B91F2ADBF3006B1594 /* UIViewController+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Swizzle.h"; sourceTree = "<group>"; };
+		CDD9A0BA1F2ADBF3006B1594 /* UIViewController+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Swizzle.m"; sourceTree = "<group>"; };
+		CDD9A0C11F2ADBF3006B1594 /* ResponderChainCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponderChainCtrl.h; sourceTree = "<group>"; };
+		CDD9A0C21F2ADBF3006B1594 /* ResponderChainCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponderChainCtrl.m; sourceTree = "<group>"; };
+		CDD9A0C31F2ADBF3006B1594 /* UIView+Responder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Responder.h"; sourceTree = "<group>"; };
+		CDD9A0C41F2ADBF3006B1594 /* UIView+Responder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Responder.m"; sourceTree = "<group>"; };
+		CDD9A0C81F2ADBF3006B1594 /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
+		CDD9A0C91F2ADBF3006B1594 /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
+		CDD9A0CA1F2ADBF3006B1594 /* RuntimeCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeCtrl.h; sourceTree = "<group>"; };
+		CDD9A0CB1F2ADBF3006B1594 /* RuntimeCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeCtrl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +83,38 @@
 				CD74103F1F2AD54D006AFCB8 /* AppDelegate.m */,
 				CD7410411F2AD54D006AFCB8 /* ViewController.h */,
 				CD7410421F2AD54D006AFCB8 /* ViewController.m */,
-				CD7410441F2AD54D006AFCB8 /* Main.storyboard */,
+				CDD9A0B41F2ADBF3006B1594 /* MethodSwizzling */,
+				CDD9A0C01F2ADBF3006B1594 /* ResponderChain */,
+				CDD9A0C61F2ADBF3006B1594 /* RunTime */,
+				CDD9A0BF1F2ADBF3006B1594 /* RegularExpression */,
+				CDD9A0B31F2ADBF3006B1594 /* KVO */,
+				CDD9A0AE1F2ADBF3006B1594 /* GCD */,
+				CDD9A0A61F2ADBF3006B1594 /* Block */,
+				CDD9A0BC1F2ADBF3006B1594 /* MultiThread */,
+				CDD9A0C51F2ADBF3006B1594 /* RunLoop */,
+				CDD9A0AB1F2ADBF3006B1594 /* CoreText */,
+				CDD9A0A81F2ADBF3006B1594 /* CoreAnimation */,
+				CDD9A0BE1F2ADBF3006B1594 /* Quartz2D */,
+				CDD9A0CD1F2ADBF3006B1594 /* Spring */,
+				CDD9A0B21F2ADBF3006B1594 /* JsonModel */,
+				CDD9A0BB1F2ADBF3006B1594 /* MJRefresh */,
+				CDD9A0CC1F2ADBF3006B1594 /* SDWebImage */,
+				CDD9A0A31F2ADBF3006B1594 /* AFNetwork */,
+				CDD9A0B11F2ADBF3006B1594 /* Instrument */,
+				CDD9A0BD1F2ADBF3006B1594 /* MVVM */,
+				CDD9A0CF1F2ADBF3006B1594 /* UML */,
+				CDD9A0B01F2ADBF3006B1594 /* HTML */,
+				CDD9A0CE1F2ADBF3006B1594 /* Swift */,
+				CDD9A0A51F2ADBF3006B1594 /* Audio */,
+				CDD9A0D01F2ADBF3006B1594 /* Video */,
+				CDD9A0A91F2ADBF3006B1594 /* CoreBluetooth */,
+				CDD9A0A41F2ADBF3006B1594 /* ARKit */,
+				CDD9A0AA1F2ADBF3006B1594 /* CoreNFC */,
+				CDD9A0A71F2ADBF3006B1594 /* ClassDump */,
+				CDD9A0AC1F2ADBF3006B1594 /* FishHook */,
+				CDD9A0AD1F2ADBF3006B1594 /* GCC */,
 				CD7410471F2AD54D006AFCB8 /* Assets.xcassets */,
+				CD7410441F2AD54D006AFCB8 /* Main.storyboard */,
 				CD7410491F2AD54D006AFCB8 /* LaunchScreen.storyboard */,
 				CD74104C1F2AD54D006AFCB8 /* Info.plist */,
 				CD74103B1F2AD54D006AFCB8 /* Supporting Files */,
@@ -77,6 +128,238 @@
 				CD74103C1F2AD54D006AFCB8 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDD9A0A31F2ADBF3006B1594 /* AFNetwork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AFNetwork;
+			sourceTree = "<group>";
+		};
+		CDD9A0A41F2ADBF3006B1594 /* ARKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ARKit;
+			sourceTree = "<group>";
+		};
+		CDD9A0A51F2ADBF3006B1594 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		CDD9A0A61F2ADBF3006B1594 /* Block */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Block;
+			sourceTree = "<group>";
+		};
+		CDD9A0A71F2ADBF3006B1594 /* ClassDump */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ClassDump;
+			sourceTree = "<group>";
+		};
+		CDD9A0A81F2ADBF3006B1594 /* CoreAnimation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreAnimation;
+			sourceTree = "<group>";
+		};
+		CDD9A0A91F2ADBF3006B1594 /* CoreBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreBluetooth;
+			sourceTree = "<group>";
+		};
+		CDD9A0AA1F2ADBF3006B1594 /* CoreNFC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreNFC;
+			sourceTree = "<group>";
+		};
+		CDD9A0AB1F2ADBF3006B1594 /* CoreText */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreText;
+			sourceTree = "<group>";
+		};
+		CDD9A0AC1F2ADBF3006B1594 /* FishHook */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FishHook;
+			sourceTree = "<group>";
+		};
+		CDD9A0AD1F2ADBF3006B1594 /* GCC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GCC;
+			sourceTree = "<group>";
+		};
+		CDD9A0AE1F2ADBF3006B1594 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		CDD9A0B01F2ADBF3006B1594 /* HTML */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HTML;
+			sourceTree = "<group>";
+		};
+		CDD9A0B11F2ADBF3006B1594 /* Instrument */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Instrument;
+			sourceTree = "<group>";
+		};
+		CDD9A0B21F2ADBF3006B1594 /* JsonModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JsonModel;
+			sourceTree = "<group>";
+		};
+		CDD9A0B31F2ADBF3006B1594 /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = KVO;
+			sourceTree = "<group>";
+		};
+		CDD9A0B41F2ADBF3006B1594 /* MethodSwizzling */ = {
+			isa = PBXGroup;
+			children = (
+				CDD9A0B51F2ADBF3006B1594 /* MethodSwizzlingCtrl.h */,
+				CDD9A0B61F2ADBF3006B1594 /* MethodSwizzlingCtrl.m */,
+				CDD9A0B71F2ADBF3006B1594 /* NSObject+Swizzle.h */,
+				CDD9A0B81F2ADBF3006B1594 /* NSObject+Swizzle.m */,
+				CDD9A0B91F2ADBF3006B1594 /* UIViewController+Swizzle.h */,
+				CDD9A0BA1F2ADBF3006B1594 /* UIViewController+Swizzle.m */,
+			);
+			path = MethodSwizzling;
+			sourceTree = "<group>";
+		};
+		CDD9A0BB1F2ADBF3006B1594 /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		CDD9A0BC1F2ADBF3006B1594 /* MultiThread */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MultiThread;
+			sourceTree = "<group>";
+		};
+		CDD9A0BD1F2ADBF3006B1594 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		CDD9A0BE1F2ADBF3006B1594 /* Quartz2D */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Quartz2D;
+			sourceTree = "<group>";
+		};
+		CDD9A0BF1F2ADBF3006B1594 /* RegularExpression */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RegularExpression;
+			sourceTree = "<group>";
+		};
+		CDD9A0C01F2ADBF3006B1594 /* ResponderChain */ = {
+			isa = PBXGroup;
+			children = (
+				CDD9A0C11F2ADBF3006B1594 /* ResponderChainCtrl.h */,
+				CDD9A0C21F2ADBF3006B1594 /* ResponderChainCtrl.m */,
+				CDD9A0C31F2ADBF3006B1594 /* UIView+Responder.h */,
+				CDD9A0C41F2ADBF3006B1594 /* UIView+Responder.m */,
+			);
+			path = ResponderChain;
+			sourceTree = "<group>";
+		};
+		CDD9A0C51F2ADBF3006B1594 /* RunLoop */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RunLoop;
+			sourceTree = "<group>";
+		};
+		CDD9A0C61F2ADBF3006B1594 /* RunTime */ = {
+			isa = PBXGroup;
+			children = (
+				CDD9A0C71F2ADBF3006B1594 /* AssociatedObjects */,
+				CDD9A0CA1F2ADBF3006B1594 /* RuntimeCtrl.h */,
+				CDD9A0CB1F2ADBF3006B1594 /* RuntimeCtrl.m */,
+			);
+			path = RunTime;
+			sourceTree = "<group>";
+		};
+		CDD9A0C71F2ADBF3006B1594 /* AssociatedObjects */ = {
+			isa = PBXGroup;
+			children = (
+				CDD9A0C81F2ADBF3006B1594 /* NSObject+Property.h */,
+				CDD9A0C91F2ADBF3006B1594 /* NSObject+Property.m */,
+			);
+			path = AssociatedObjects;
+			sourceTree = "<group>";
+		};
+		CDD9A0CC1F2ADBF3006B1594 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		CDD9A0CD1F2ADBF3006B1594 /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Spring;
+			sourceTree = "<group>";
+		};
+		CDD9A0CE1F2ADBF3006B1594 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		CDD9A0CF1F2ADBF3006B1594 /* UML */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UML;
+			sourceTree = "<group>";
+		};
+		CDD9A0D01F2ADBF3006B1594 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Video;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +432,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDD9A0D41F2ADBF3006B1594 /* ResponderChainCtrl.m in Sources */,
+				CDD9A0D71F2ADBF3006B1594 /* RuntimeCtrl.m in Sources */,
 				CD7410431F2AD54D006AFCB8 /* ViewController.m in Sources */,
+				CDD9A0D31F2ADBF3006B1594 /* UIViewController+Swizzle.m in Sources */,
+				CDD9A0D51F2ADBF3006B1594 /* UIView+Responder.m in Sources */,
+				CDD9A0D61F2ADBF3006B1594 /* NSObject+Property.m in Sources */,
 				CD7410401F2AD54D006AFCB8 /* AppDelegate.m in Sources */,
 				CD74103D1F2AD54D006AFCB8 /* main.m in Sources */,
+				CDD9A0D11F2ADBF3006B1594 /* MethodSwizzlingCtrl.m in Sources */,
+				CDD9A0D21F2ADBF3006B1594 /* NSObject+Swizzle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +596,7 @@
 				CD7410511F2AD54D006AFCB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
