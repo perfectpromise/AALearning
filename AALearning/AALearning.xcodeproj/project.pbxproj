@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9E32E11F72CFBBC6266AAFD /* libPods-AALearning.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D106CFCD215D332161E804 /* libPods-AALearning.a */; };
 		CD74103D1F2AD54D006AFCB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74103C1F2AD54D006AFCB8 /* main.m */; };
 		CD7410401F2AD54D006AFCB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74103F1F2AD54D006AFCB8 /* AppDelegate.m */; };
 		CD7410431F2AD54D006AFCB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7410421F2AD54D006AFCB8 /* ViewController.m */; };
@@ -50,6 +51,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0307362ADD7CF64563990E75 /* Pods-AALearning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AALearning.release.xcconfig"; path = "Pods/Target Support Files/Pods-AALearning/Pods-AALearning.release.xcconfig"; sourceTree = "<group>"; };
+		63D106CFCD215D332161E804 /* libPods-AALearning.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AALearning.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		799930292052BB9DB157D2E3 /* Pods-AALearning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AALearning.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AALearning/Pods-AALearning.debug.xcconfig"; sourceTree = "<group>"; };
 		CD7410381F2AD54D006AFCB8 /* AALearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AALearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD74103C1F2AD54D006AFCB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD74103E1F2AD54D006AFCB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -135,17 +139,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9E32E11F72CFBBC6266AAFD /* libPods-AALearning.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B36BE2E2B96BCC4AEB595C70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63D106CFCD215D332161E804 /* libPods-AALearning.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CD74102F1F2AD54D006AFCB8 = {
 			isa = PBXGroup;
 			children = (
 				CD74103A1F2AD54D006AFCB8 /* AALearning */,
 				CD7410391F2AD54D006AFCB8 /* Products */,
+				FEB2B339A95F827C313C46AC /* Pods */,
+				B36BE2E2B96BCC4AEB595C70 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -497,6 +512,15 @@
 			path = Video;
 			sourceTree = "<group>";
 		};
+		FEB2B339A95F827C313C46AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				799930292052BB9DB157D2E3 /* Pods-AALearning.debug.xcconfig */,
+				0307362ADD7CF64563990E75 /* Pods-AALearning.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -504,9 +528,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD74104F1F2AD54D006AFCB8 /* Build configuration list for PBXNativeTarget "AALearning" */;
 			buildPhases = (
+				12EB94D8BEA49718D494D7E5 /* [CP] Check Pods Manifest.lock */,
 				CD7410341F2AD54D006AFCB8 /* Sources */,
 				CD7410351F2AD54D006AFCB8 /* Frameworks */,
 				CD7410361F2AD54D006AFCB8 /* Resources */,
+				00DB262AF043534E77587D93 /* [CP] Embed Pods Frameworks */,
+				CAEBA64960FD7A761B502305 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -561,6 +588,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DB262AF043534E77587D93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AALearning/Pods-AALearning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		12EB94D8BEA49718D494D7E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CAEBA64960FD7A761B502305 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AALearning/Pods-AALearning-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CD7410341F2AD54D006AFCB8 /* Sources */ = {
@@ -719,6 +794,7 @@
 		};
 		CD7410501F2AD54D006AFCB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 799930292052BB9DB157D2E3 /* Pods-AALearning.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AALearning/Info.plist;
@@ -730,6 +806,7 @@
 		};
 		CD7410511F2AD54D006AFCB8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0307362ADD7CF64563990E75 /* Pods-AALearning.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AALearning/Info.plist;
