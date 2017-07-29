@@ -180,19 +180,22 @@
      */
 }
 
-#define KPhoneRegex  @"\\d{3}-\\d{8}|\\d{3}-\\d{7}|\\d{4}-\\d{8}|\\d{4}-\\d{7}|1+[358]+\\d{9}|\\d{8}|\\d{7}"
+#define KPhoneRegex  @"\\d{3}-\\d{8}|\\d{3}-\\d{7}|\\d{4}-\\d{8}|\\d{4}-\\d{7}|1+[34578]+\\d{9}|\\d{8}|\\d{7}"
 #define KWebRegex    @"((http[s]{0,1}|ftp)://[a-zA-Z0-9\\.\\-]+\\.([a-zA-Z]{2,4})(:\\d+)?(/[a-zA-Z0-9\\.\\-~!@#$%^&*+?:_/=<>]*)?)|(www.[a-zA-Z0-9\\.\\-]+\\.([a-zA-Z]{2,4})(:\\d+)?(/[a-zA-Z0-9\\.\\-~!@#$%^&*+?:_/=<>]*)?)"
 #define KWebOtherRegex @"http+:[^\\s]*"
 #define KEmailRegex  @"[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}"
 - (void)regularExpression{
     
     // 测试字符串，把里面的电话号码解析出来
-    NSString *urlString = @"哈哈哈哈呵呵呵s15279107723在这里啊啊啊啊s15279107716";
+    NSString *urlString = @"哈哈15279107001啊啊15279107002";
     NSError *error = NULL;
     // 根据匹配条件,创建了一个正则表达式(类方法,实例方法类似)
-    NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:KPhoneRegex options:NSRegularExpressionCaseInsensitive error:&error];
+    NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:KPhoneRegex
+                                                                           options:NSRegularExpressionCaseInsensitive
+                                                                             error:&error];
     if (regex != nil) {
-        // 3.....
+        
+        //返回第一个匹配项
         NSTextCheckingResult *firstMatch = [regex firstMatchInString:urlString
                                                              options:0
                                                                range:NSMakeRange(0, [urlString length])];
@@ -200,41 +203,38 @@
             NSRange resultRange = [firstMatch rangeAtIndex:0];
             //从urlString中截取数据
             NSString *result = [urlString substringWithRange:resultRange];
-            NSLog(@"result = %@",result);
+            NSLog(@"第一个匹配项 = %@",result);
         }
-        // 2.....
+        //返回匹配总数
         NSUInteger number = [regex numberOfMatchesInString:urlString
                                                    options:0
                                                      range:NSMakeRange(0, [urlString length])];
-        NSLog(@"number = %ld",number);
-        // 5.....(坑爹的返回第一个匹配结果)
+        NSLog(@"匹配总数 = %ld",number);
+        //返回所有匹配结果
         [regex enumerateMatchesInString:urlString options:0 range:NSMakeRange(0, [urlString length]) usingBlock:^(NSTextCheckingResult *result, NSMatchingFlags flags, BOOL *stop) {
-            NSLog(@"---%@",NSStringFromRange([result range]));
+            NSLog(@"匹配项Range:%@",NSStringFromRange([result range]));
             if (flags != NSMatchingInternalError) {
                 NSRange firstHalfRange = [result rangeAtIndex:0];
                 if (firstHalfRange.length > 0) {
                     NSString *resultString1 = [urlString substringWithRange:firstHalfRange];
-                    NSLog(@"result1 = %@",resultString1);
+                    NSLog(@"匹配结果 = %@",resultString1);
                 }
             }
-            *stop = YES;
         }];
     }
     
-    // 替换掉你要匹配的字符串
+    //替换掉你要匹配的字符串
     NSString *reString = [regex stringByReplacingMatchesInString:urlString
                                                          options:0
                                                            range:NSMakeRange(0, [urlString length])
                                                     withTemplate:@"(我就是替换的值)"];
-    NSLog(@"reString = %@",reString);
-    // 还有2个方法大家可以去尝试看看
+    NSLog(@"替换后 = %@",reString);
     
-    
-    // 1.
+    //matchesInString获取所有匹配项数组
     NSMutableArray *oneArray = [self _matchLinkWithStr:urlString
                                           withMatchStr:KPhoneRegex];
     for (NSString *phone in oneArray) {
-        NSLog(@"phone = %@",phone);
+        NSLog(@"匹配手机号 = %@",phone);
     }
 }
 
@@ -249,17 +249,17 @@
                                     range:NSMakeRange(0, [str length])];
     
     NSMutableArray *rangeArr = [NSMutableArray array];
-    // 取得所有的NSRange对象
+    //取得所有的NSRange对象
     if(match.count != 0)
     {
         for (NSTextCheckingResult *matc in match)
         {
             NSRange range = [matc range];
-            NSValue *value = [NSValue valueWithRange:range];
+            NSValue *value = [NSValue valueWithRange:range]; //将NSRange结构体转换为NSValue对象进行存储
             [rangeArr addObject:value];
         }
     }
-    // 将要匹配的值取出来,存入数组当中
+    //将要匹配的值取出来,存入数组当中
     __block NSMutableArray *mulArr = [NSMutableArray array];
     [rangeArr enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
         NSValue *value = (NSValue *)obj;
