@@ -29,7 +29,7 @@
     ((void (*) (id, SEL))objc_msgSend)(msgSend, sel_registerName("showAge"));
     ((void (*) (id, SEL, NSString *))objc_msgSend)(msgSend, sel_registerName("showName:"),@"安安");
     ((void (*) (id, SEL, float, float)) objc_msgSend)(msgSend, sel_registerName("showWeight:andHeight:"),10.0f,80.0f);
-    float height = ((float (*) (id, SEL)) objc_msgSend_fpret)(msgSend, sel_registerName("getHeight"));
+    float height = ((float (*) (id, SEL)) objc_msgSend)(msgSend, sel_registerName("getHeight"));
     NSString *info = ((NSString* (*) (id, SEL)) objc_msgSend)(msgSend, sel_registerName("getInfo"));
     
     NSLog(@"身高：%f CM，基本信息：%@",height,info);

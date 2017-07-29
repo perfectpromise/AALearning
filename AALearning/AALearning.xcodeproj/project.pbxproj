@@ -14,6 +14,7 @@
 		CD7410461F2AD54D006AFCB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7410441F2AD54D006AFCB8 /* Main.storyboard */; };
 		CD7410481F2AD54D006AFCB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7410471F2AD54D006AFCB8 /* Assets.xcassets */; };
 		CD74104B1F2AD54D006AFCB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7410491F2AD54D006AFCB8 /* LaunchScreen.storyboard */; };
+		CDCD44151F2C6B8800209265 /* UIBezierPathCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCD44141F2C6B8800209265 /* UIBezierPathCtrl.m */; };
 		CDD9A0D11F2ADBF3006B1594 /* MethodSwizzlingCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A0B61F2ADBF3006B1594 /* MethodSwizzlingCtrl.m */; };
 		CDD9A0D21F2ADBF3006B1594 /* NSObject+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A0B81F2ADBF3006B1594 /* NSObject+Swizzle.m */; };
 		CDD9A0D31F2ADBF3006B1594 /* UIViewController+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A0BA1F2ADBF3006B1594 /* UIViewController+Swizzle.m */; };
@@ -69,6 +70,8 @@
 		CD7410471F2AD54D006AFCB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD74104A1F2AD54D006AFCB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD74104C1F2AD54D006AFCB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDCD44131F2C6B8800209265 /* UIBezierPathCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBezierPathCtrl.h; sourceTree = "<group>"; };
+		CDCD44141F2C6B8800209265 /* UIBezierPathCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBezierPathCtrl.m; sourceTree = "<group>"; };
 		CDD9A0B51F2ADBF3006B1594 /* MethodSwizzlingCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodSwizzlingCtrl.h; sourceTree = "<group>"; };
 		CDD9A0B61F2ADBF3006B1594 /* MethodSwizzlingCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodSwizzlingCtrl.m; sourceTree = "<group>"; };
 		CDD9A0B71F2ADBF3006B1594 /* NSObject+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzle.h"; sourceTree = "<group>"; };
@@ -205,6 +208,7 @@
 				CDD9A0C51F2ADBF3006B1594 /* RunLoop */,
 				CDD9A0AB1F2ADBF3006B1594 /* CoreText */,
 				CDD9A0A81F2ADBF3006B1594 /* CoreAnimation */,
+				CDCD44121F2C6B7800209265 /* UIBezierPath */,
 				CDD9A0BE1F2ADBF3006B1594 /* Quartz2D */,
 				CDD9A0CD1F2ADBF3006B1594 /* Spring */,
 				CDD9A0B21F2ADBF3006B1594 /* JsonModel */,
@@ -239,6 +243,15 @@
 				CD74103C1F2AD54D006AFCB8 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDCD44121F2C6B7800209265 /* UIBezierPath */ = {
+			isa = PBXGroup;
+			children = (
+				CDCD44131F2C6B8800209265 /* UIBezierPathCtrl.h */,
+				CDCD44141F2C6B8800209265 /* UIBezierPathCtrl.m */,
+			);
+			path = UIBezierPath;
 			sourceTree = "<group>";
 		};
 		CDD9A0A31F2ADBF3006B1594 /* AFNetwork */ = {
@@ -612,6 +625,7 @@
 				TargetAttributes = {
 					CD7410371F2AD54D006AFCB8 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9SFLDFJH74;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -734,6 +748,7 @@
 				CD7410401F2AD54D006AFCB8 /* AppDelegate.m in Sources */,
 				CD74103D1F2AD54D006AFCB8 /* main.m in Sources */,
 				CDD9A0FB1F2ADF51006B1594 /* JsonModelCtrl.m in Sources */,
+				CDCD44151F2C6B8800209265 /* UIBezierPathCtrl.m in Sources */,
 				CDD9A0EC1F2ADF16006B1594 /* RunLoopCtrl.m in Sources */,
 				CDD9A0D11F2ADBF3006B1594 /* MethodSwizzlingCtrl.m in Sources */,
 				CDD9A0E61F2ADEFE006B1594 /* BlockCtrl.m in Sources */,
@@ -807,7 +822,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -848,7 +863,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -860,6 +875,7 @@
 			baseConfigurationReference = 799930292052BB9DB157D2E3 /* Pods-AALearning.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9SFLDFJH74;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = AALearning/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -873,6 +889,7 @@
 			baseConfigurationReference = 0307362ADD7CF64563990E75 /* Pods-AALearning.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9SFLDFJH74;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = AALearning/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

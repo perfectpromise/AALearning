@@ -7,6 +7,7 @@
 //
 
 #import "RegularExpressionCtrl.h"
+#import "PPSSignatureView.h"
 
 @interface RegularExpressionCtrl ()
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    /*签名*/
+    PPSSignatureView *signatureView = [[PPSSignatureView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:signatureView];
     
     /*谓语NSPredicate的用法*/
     [self predicateTest];
