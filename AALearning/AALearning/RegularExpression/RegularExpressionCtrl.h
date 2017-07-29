@@ -1,10 +1,6 @@
-//
-//  RegularExpressionCtrl.h
-//  AALearning
-//
-//  Created by LWF on 17/7/28.
-//
-//
+/*
+    http://www.regexlab.com/zh/regref.htm
+ */
 
 #import <UIKit/UIKit.h>
 
