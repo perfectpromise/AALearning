@@ -35,7 +35,8 @@ typedef enum {
     self.edgesForExtendedLayout = UIRectEdgeNone;
     self.navigationItem.title = @"首页";
     
-    learnedArr = [NSArray arrayWithObjects:@"MethodSwizzling",@"ResponderChain",@"Runtime",@"RegularExpression", nil];
+    learnedArr = [NSArray arrayWithObjects:@"MethodSwizzling",@"ResponderChain",@"Runtime",
+                  @"RegularExpression",@"KVO",@"GCD", nil];
     
 }
 

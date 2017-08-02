@@ -19,12 +19,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    ViewController *firstVC = [storyBoard instantiateViewControllerWithIdentifier:@"ViewController"];
-    UINavigationController *naviController = [[UINavigationController alloc] initWithRootViewController:firstVC];
-    self.window.rootViewController = naviController;
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+//    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+//    ViewController *firstVC = [storyBoard instantiateViewControllerWithIdentifier:@"ViewController"];
+//    UINavigationController *naviController = [[UINavigationController alloc] initWithRootViewController:firstVC];
+//    self.window.rootViewController = naviController;
+//    self.window.backgroundColor = [UIColor whiteColor];
+//    [self.window makeKeyAndVisible];
     
     return YES;
 }
