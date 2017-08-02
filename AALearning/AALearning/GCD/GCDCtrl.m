@@ -18,6 +18,22 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+//    [self syncConcurrent];
+//    [self asyncConcurrent];
+//    [self syncSerial];
+//    [self asyncSerial];
+//
+    dispatch_queue_t queue = dispatch_queue_create("test.queue", DISPATCH_QUEUE_SERIAL);
+    
+    dispatch_async(queue, ^{
+        [self syncMain];
+    });
+//
+//    [self asyncMain];
+    
+}
+
+- (void)gcdBase{
     // 串行队列的创建方法
     dispatch_queue_t serialQueue = dispatch_queue_create("test.queue", DISPATCH_QUEUE_SERIAL);
     
@@ -39,20 +55,9 @@
     dispatch_async(concurrentQueue2, ^{
         NSLog(@"%@",[NSThread currentThread]);    // 这里放任务代码
     });
-    
-    [self syncConcurrent];
-    [self asyncConcurrent];
-    [self syncSerial];
-    [self asyncSerial];
-    
-    dispatch_queue_t queue = dispatch_queue_create("test.queue", DISPATCH_QUEUE_CONCURRENT);
-    
-    dispatch_async(queue, ^{
-        [self syncMain];
-    });
-    
-    [self asyncMain];
-    
+}
+
+- (void)gcdOther{
     //延时操作
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         // 2秒后异步执行这里的代码...
@@ -154,19 +159,20 @@
 - (void) asyncConcurrent {
     NSLog(@"asyncConcurrent---begin");
     dispatch_queue_t queue= dispatch_queue_create("test.queue", DISPATCH_QUEUE_CONCURRENT);
-    dispatch_async(queue, ^{
+    
+    dispatch_async(queue, ^{//生成一个线程
         for (int i = 0; i < 2; ++i) {
             NSLog(@"1------%@",[NSThread currentThread]);
         }
     });
     
-    dispatch_async(queue, ^{
+    dispatch_async(queue, ^{//生成一个线程
         for (int i = 0; i < 2; ++i){
             NSLog(@"2------%@",[NSThread currentThread]);
         }
     });
     
-    dispatch_async(queue, ^{
+    dispatch_async(queue, ^{//生成一个线程
         for (int i = 0; i < 2; ++i) {
             NSLog(@"3------%@",[NSThread currentThread]);
         }
@@ -207,9 +213,9 @@
  任务不是马上执行，而是将所有任务添加到队列之后才开始同步执行。
  */
 - (void) asyncSerial {
-    NSLog(@"asyncSerial---begin");
+    NSLog(@"asyncSerial---begin：%@",[NSThread currentThread]);//之前的线程
     dispatch_queue_t queue = dispatch_queue_create("test.queue", DISPATCH_QUEUE_SERIAL);
-    dispatch_async(queue, ^{
+    dispatch_async(queue, ^{ //创建一个新线程
         for (int i = 0; i < 2; ++i) {
             NSLog(@"1------%@",[NSThread currentThread]);
         }
@@ -253,7 +259,6 @@
 - (void)syncMain {
     NSLog(@"syncMain---begin");
     dispatch_queue_t queue = dispatch_get_main_queue();
-//    dispatch_queue_t queue = dispatch_queue_create("test.queue", DISPATCH_QUEUE_CONCURRENT);
     dispatch_sync(queue, ^{
         for (int i = 0; i < 2; ++i) {
             NSLog(@"1------%@",[NSThread currentThread]);
