@@ -17,20 +17,49 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.navigationItem.title = @"GCD";
     
-//    [self syncConcurrent];
-//    [self asyncConcurrent];
-//    [self syncSerial];
-//    [self asyncSerial];
-//
-    dispatch_queue_t queue = dispatch_queue_create("test.queue", DISPATCH_QUEUE_SERIAL);
+    NSArray *btnTitleArr = [NSArray arrayWithObjects:@"同步执行+并行队列",
+                            @"异步执行+并行队列",
+                            @"同步执行+串行队列",
+                            @"异步执行+串行队列",
+                            @"同步执行+主队列",
+                            @"异步执行+主队列",
+                            @"延时+快速迭代+队列组",
+                            @"GCD栅栏方法",nil];
+    [self addButtonsWithTitle:btnTitleArr];
+}
+
+- (void)btnPressed:(UIButton *)btn{
     
-    dispatch_async(queue, ^{
-        [self syncMain];
-    });
-//
-//    [self asyncMain];
-    
+    if (btn.tag == 0) {
+        [self syncConcurrent];
+        
+    }else if (btn.tag == 1){
+        [self asyncConcurrent];
+        
+    }else if (btn.tag == 2){
+        [self syncSerial];
+        
+    }else if (btn.tag == 3){
+        [self asyncSerial];
+        
+    }else if (btn.tag == 4){
+        dispatch_queue_t queue = dispatch_queue_create("test.queue", DISPATCH_QUEUE_SERIAL);
+        
+        dispatch_async(queue, ^{
+            [self syncMain];
+        });
+        
+    }else if (btn.tag == 5){
+        [self asyncMain];
+        
+    }else if (btn.tag == 6){
+        [self gcdOther];
+        
+    }else if (btn.tag == 7){
+        [self barrier];
+    }
 }
 
 - (void)gcdBase{
@@ -61,7 +90,7 @@
     //延时操作
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         // 2秒后异步执行这里的代码...
-        NSLog(@"run-----");
+        NSLog(@"after-----");
     });
     
     //GCD的一次性代码(只执行一次)
@@ -76,7 +105,7 @@
      比如说遍历0~5这6个数字，for循环的做法是每次取出一个元素，逐个遍历。dispatch_apply可以同时遍历多个数字。
      */
     dispatch_queue_t queue1 = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
-    dispatch_apply(50000, queue1, ^(size_t index) {
+    dispatch_apply(2, queue1, ^(size_t index) {
         NSLog(@"%zd------%@",index, [NSThread currentThread]);
     });
     
@@ -84,12 +113,15 @@
     dispatch_group_t group = dispatch_group_create();
     dispatch_group_async(group, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         // 执行1个耗时的异步操作
+        NSLog(@"group--1");
     });
     dispatch_group_async(group, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         // 执行1个耗时的异步操作
+        NSLog(@"group--2");
     });
     dispatch_group_notify(group, dispatch_get_main_queue(), ^{
         // 等前面的异步操作都执行完毕后，回到主线程...
+        NSLog(@"group--end");
     });
 }
 
@@ -153,7 +185,7 @@
 
 
 /*并行队列 + 异步执行
- 除了主线程，又开启了3个线程，并且任务是交替着同时执行的。
+ 除了主线程，又开启了3个线程，并且任务是交替着同时执行的。(可能生成1个或2个或3个线程，应该与CPU调度有关)
  任务不是马上执行，而是将所有任务添加到队列之后才开始异步执行。
  */
 - (void) asyncConcurrent {

@@ -9,8 +9,8 @@
  异步(async)       (有开启新线程，并行执行任务) 	(有开启新线程(1条)，串行执行任务)    (没有开启新线程，串行执行任务)
  */
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface GCDCtrl : UIViewController
+@interface GCDCtrl : BaseViewController
 
 @end
