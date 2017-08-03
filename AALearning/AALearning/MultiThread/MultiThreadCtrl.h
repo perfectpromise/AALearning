@@ -6,8 +6,8 @@
 //
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface MultiThreadCtrl : UIViewController
+@interface MultiThreadCtrl : BaseViewController
 
 @end

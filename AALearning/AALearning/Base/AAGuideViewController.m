@@ -9,9 +9,6 @@
 #import "AAGuideViewController.h"
 #import "AATabBarController.h"
 
-#define ScreenWidth [[UIScreen mainScreen] bounds].size.width       //屏幕宽度
-#define ScreenHeight [[UIScreen mainScreen] bounds].size.height     //屏幕高度
-
 @interface AAGuideViewController ()<UIScrollViewDelegate>
 {
     // 创建页码控制器

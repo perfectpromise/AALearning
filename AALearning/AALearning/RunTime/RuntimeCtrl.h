@@ -3,9 +3,9 @@
  2、Runtime源码：https://github.com/RetVal/objc-runtime  https://www.zhihu.com/question/33634266
  */
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface RuntimeCtrl : UIViewController
+@interface RuntimeCtrl : BaseViewController
 
 @end
 
