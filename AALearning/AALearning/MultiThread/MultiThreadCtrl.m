@@ -30,8 +30,8 @@
                               @"PThreadCtrl",
                               @"NSThreadCtrl",
                               @"NSOperationCtrl",
-                              @"BlockCtrl",
-                              @"RunLoopCtrl",nil];
+                              @"RunLoopCtrl",
+                              @"BlockCtrl",nil];
     
     BaseViewController *viewCtrl = [NSClassFromString(controllerArr[btn.tag]) new];
     viewCtrl.hidesBottomBarWhenPushed = YES;
