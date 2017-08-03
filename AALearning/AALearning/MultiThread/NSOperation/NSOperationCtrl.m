@@ -21,7 +21,8 @@
     // Do any additional setup after loading the view.
     self.navigationItem.title = @"NSOperation（抽象类）";
     NSArray *btnTitleArr = [NSArray arrayWithObjects:@"NSInvocationOperation",@"NSBlockOperation",@"ExecutionBlock",
-                            @"继承NSOperation",@"NSOperationQueue主队列",@"NSOperationQueue其他队列",nil];
+                            @"继承NSOperation",@"NSOperationQueue主队列",@"NSOperationQueue其他队列",
+                            @"最大并发数",@"操作依赖",nil];
     [self addButtonsWithTitle:btnTitleArr];
 }
 
@@ -56,8 +57,10 @@
         [self addOperationToQueue];
         
     }else if (btn.tag == 6){
+        [self opetationQueue];
         
     }else if (btn.tag == 7){
+        [self addDependency];
     }
 }
 
@@ -96,6 +99,67 @@
             NSLog(@"-----%@", [NSThread currentThread]);
         }
     }];
+}
+
+/*
+ 控制串行执行和并行执行的关键:maxConcurrentOperationCount
+ A:默认情况下为-1，表示不进行限制，默认为并发执行
+ B:为1时，进行串行执行(并非只开启一个线程)，开启线程数量由系统决定
+ C:大于1时，进行并发执行，当然这个值不应超过系统限制，即使自己设置一个很大的值，系统也会自动调整
+*/
+- (void)opetationQueue {
+    // 创建队列
+    NSOperationQueue *queue = [[NSOperationQueue alloc] init];
+    // 设置最大并发操作数
+    queue.maxConcurrentOperationCount = 2;
+    // queue.maxConcurrentOperationCount = 1; // 为1就变成了串行队列
+    // 添加操作
+    [queue addOperationWithBlock:^{
+        NSLog(@"1-----%@", [NSThread currentThread]);
+        [NSThread sleepForTimeInterval:0.01];
+    }];
+    
+    [queue addOperationWithBlock:^{
+        NSLog(@"2-----%@", [NSThread currentThread]);
+        [NSThread sleepForTimeInterval:0.01];
+    }];
+    
+    [queue addOperationWithBlock:^{
+        NSLog(@"3-----%@", [NSThread currentThread]);
+        [NSThread sleepForTimeInterval:0.01];
+    }];
+    
+    [queue addOperationWithBlock:^{
+        NSLog(@"4-----%@", [NSThread currentThread]);
+        [NSThread sleepForTimeInterval:0.01];
+    }];
+    
+    [queue addOperationWithBlock:^{
+        NSLog(@"5-----%@", [NSThread currentThread]);
+        [NSThread sleepForTimeInterval:0.01];
+    }];
+    
+    [queue addOperationWithBlock:^{
+        NSLog(@"6-----%@", [NSThread currentThread]);
+        [NSThread sleepForTimeInterval:0.01];
+    }];
+}
+
+/*
+ 操作依赖
+ */
+- (void)addDependency {
+    NSOperationQueue *queue = [[NSOperationQueue alloc] init];
+    NSBlockOperation *op1 = [NSBlockOperation blockOperationWithBlock:^{
+        NSLog(@"1-----%@", [NSThread currentThread]);
+    }];
+    NSBlockOperation *op2 = [NSBlockOperation blockOperationWithBlock:^{
+        NSLog(@"2-----%@", [NSThread currentThread]);
+    }];
+    [op1 addDependency:op2];
+    // 让op1 依赖于 op2，则先执行op2，在执行op1
+    [queue addOperation:op1];
+    [queue addOperation:op2];
 }
 
 - (void)blockOperation {
