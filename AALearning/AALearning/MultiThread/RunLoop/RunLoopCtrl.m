@@ -1,24 +1,22 @@
 //
-//  MultiThreadCtrl.m
+//  RunLoopCtrl.m
 //  AALearning
 //
 //  Created by LWF on 17/7/28.
 //
 //
 
-#import "MultiThreadCtrl.h"
+#import "RunLoopCtrl.h"
 
-@interface MultiThreadCtrl ()
+@interface RunLoopCtrl ()
 
 @end
 
-@implementation MultiThreadCtrl
+@implementation RunLoopCtrl
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.navigationItem.title = @"多线程";
-
 }
 
 - (void)didReceiveMemoryWarning {

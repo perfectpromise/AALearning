@@ -1,24 +1,22 @@
 //
-//  MultiThreadCtrl.m
+//  BlockCtrl.m
 //  AALearning
 //
 //  Created by LWF on 17/7/28.
 //
 //
 
-#import "MultiThreadCtrl.h"
+#import "BlockCtrl.h"
 
-@interface MultiThreadCtrl ()
+@interface BlockCtrl ()
 
 @end
 
-@implementation MultiThreadCtrl
+@implementation BlockCtrl
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.navigationItem.title = @"多线程";
-
 }
 
 - (void)didReceiveMemoryWarning {
