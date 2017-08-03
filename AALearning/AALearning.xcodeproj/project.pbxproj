@@ -46,6 +46,9 @@
 		CD44E31A1F32B695005BED59 /* OtherCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E3191F32B695005BED59 /* OtherCtrl.m */; };
 		CD44E3201F32B7FB005BED59 /* CoreNFCCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E31F1F32B7FB005BED59 /* CoreNFCCtrl.m */; };
 		CD44E3241F32B817005BED59 /* CoreBluetoothCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E3231F32B817005BED59 /* CoreBluetoothCtrl.m */; };
+		CD44E3291F32C015005BED59 /* PThreadCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E3281F32C015005BED59 /* PThreadCtrl.m */; };
+		CD44E32C1F32C021005BED59 /* NSThreadCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E32B1F32C021005BED59 /* NSThreadCtrl.m */; };
+		CD44E3301F32C07D005BED59 /* NSOperationCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E32F1F32C07D005BED59 /* NSOperationCtrl.m */; };
 		CD74103D1F2AD54D006AFCB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74103C1F2AD54D006AFCB8 /* main.m */; };
 		CD7410401F2AD54D006AFCB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74103F1F2AD54D006AFCB8 /* AppDelegate.m */; };
 		CD7410481F2AD54D006AFCB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7410471F2AD54D006AFCB8 /* Assets.xcassets */; };
@@ -139,6 +142,12 @@
 		CD44E31F1F32B7FB005BED59 /* CoreNFCCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreNFCCtrl.m; sourceTree = "<group>"; };
 		CD44E3221F32B817005BED59 /* CoreBluetoothCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreBluetoothCtrl.h; sourceTree = "<group>"; };
 		CD44E3231F32B817005BED59 /* CoreBluetoothCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreBluetoothCtrl.m; sourceTree = "<group>"; };
+		CD44E3271F32C015005BED59 /* PThreadCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PThreadCtrl.h; sourceTree = "<group>"; };
+		CD44E3281F32C015005BED59 /* PThreadCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PThreadCtrl.m; sourceTree = "<group>"; };
+		CD44E32A1F32C021005BED59 /* NSThreadCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSThreadCtrl.h; sourceTree = "<group>"; };
+		CD44E32B1F32C021005BED59 /* NSThreadCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSThreadCtrl.m; sourceTree = "<group>"; };
+		CD44E32E1F32C07D005BED59 /* NSOperationCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOperationCtrl.h; sourceTree = "<group>"; };
+		CD44E32F1F32C07D005BED59 /* NSOperationCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOperationCtrl.m; sourceTree = "<group>"; };
 		CD7410381F2AD54D006AFCB8 /* AALearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AALearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD74103C1F2AD54D006AFCB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD74103E1F2AD54D006AFCB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -521,6 +530,33 @@
 			path = CoreBluetooth;
 			sourceTree = "<group>";
 		};
+		CD44E3251F32BFDB005BED59 /* pthread */ = {
+			isa = PBXGroup;
+			children = (
+				CD44E3271F32C015005BED59 /* PThreadCtrl.h */,
+				CD44E3281F32C015005BED59 /* PThreadCtrl.m */,
+			);
+			path = pthread;
+			sourceTree = "<group>";
+		};
+		CD44E3261F32BFF6005BED59 /* NSThread */ = {
+			isa = PBXGroup;
+			children = (
+				CD44E32A1F32C021005BED59 /* NSThreadCtrl.h */,
+				CD44E32B1F32C021005BED59 /* NSThreadCtrl.m */,
+			);
+			path = NSThread;
+			sourceTree = "<group>";
+		};
+		CD44E32D1F32C072005BED59 /* NSOperation */ = {
+			isa = PBXGroup;
+			children = (
+				CD44E32E1F32C07D005BED59 /* NSOperationCtrl.h */,
+				CD44E32F1F32C07D005BED59 /* NSOperationCtrl.m */,
+			);
+			path = NSOperation;
+			sourceTree = "<group>";
+		};
 		CD74102F1F2AD54D006AFCB8 = {
 			isa = PBXGroup;
 			children = (
@@ -571,6 +607,9 @@
 				CDD9A0E71F2ADF0A006B1594 /* MultiThreadCtrl.h */,
 				CDD9A0E81F2ADF0A006B1594 /* MultiThreadCtrl.m */,
 				CD44E30F1F32B5E8005BED59 /* GCD */,
+				CD44E3251F32BFDB005BED59 /* pthread */,
+				CD44E3261F32BFF6005BED59 /* NSThread */,
+				CD44E32D1F32C072005BED59 /* NSOperation */,
 				CD44E30C1F32B5E8005BED59 /* Block */,
 				CD44E3121F32B5E8005BED59 /* RunLoop */,
 			);
@@ -766,6 +805,7 @@
 				CD44E2311F32B0F3005BED59 /* NSObject+Swizzle.m in Sources */,
 				CDD9A13E1F2B342F006B1594 /* TestModel.m in Sources */,
 				CD44E2E21F32B489005BED59 /* GCCCtrl.m in Sources */,
+				CD44E32C1F32C021005BED59 /* NSThreadCtrl.m in Sources */,
 				CD44E2321F32B0F3005BED59 /* UIViewController+Swizzle.m in Sources */,
 				CD44E2E61F32B489005BED59 /* KVOCtrl.m in Sources */,
 				CD44E2E71F32B489005BED59 /* MJRefreshCtrl.m in Sources */,
@@ -799,8 +839,10 @@
 				CD0957851F32A899004CA5BD /* AATabBarController.m in Sources */,
 				CD44E3171F32B5E8005BED59 /* RunLoopCtrl.m in Sources */,
 				CD44E2EB1F32B489005BED59 /* SpringCtrl.m in Sources */,
+				CD44E3291F32C015005BED59 /* PThreadCtrl.m in Sources */,
 				CD44E2E31F32B489005BED59 /* HTMLCtrl.m in Sources */,
 				CD44E2341F32B0F3005BED59 /* UIView+Responder.m in Sources */,
+				CD44E3301F32C07D005BED59 /* NSOperationCtrl.m in Sources */,
 				CD44E3081F32B518005BED59 /* VideoCtrl.m in Sources */,
 				CD7410401F2AD54D006AFCB8 /* AppDelegate.m in Sources */,
 				CD74103D1F2AD54D006AFCB8 /* main.m in Sources */,
