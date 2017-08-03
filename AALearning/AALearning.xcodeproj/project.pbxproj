@@ -44,6 +44,8 @@
 		CD44E3161F32B5E8005BED59 /* GCDCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E3111F32B5E8005BED59 /* GCDCtrl.m */; };
 		CD44E3171F32B5E8005BED59 /* RunLoopCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E3141F32B5E8005BED59 /* RunLoopCtrl.m */; };
 		CD44E31A1F32B695005BED59 /* OtherCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E3191F32B695005BED59 /* OtherCtrl.m */; };
+		CD44E3201F32B7FB005BED59 /* CoreNFCCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E31F1F32B7FB005BED59 /* CoreNFCCtrl.m */; };
+		CD44E3241F32B817005BED59 /* CoreBluetoothCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E3231F32B817005BED59 /* CoreBluetoothCtrl.m */; };
 		CD74103D1F2AD54D006AFCB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74103C1F2AD54D006AFCB8 /* main.m */; };
 		CD7410401F2AD54D006AFCB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74103F1F2AD54D006AFCB8 /* AppDelegate.m */; };
 		CD7410481F2AD54D006AFCB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7410471F2AD54D006AFCB8 /* Assets.xcassets */; };
@@ -133,6 +135,10 @@
 		CD44E3141F32B5E8005BED59 /* RunLoopCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunLoopCtrl.m; sourceTree = "<group>"; };
 		CD44E3181F32B695005BED59 /* OtherCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherCtrl.h; sourceTree = "<group>"; };
 		CD44E3191F32B695005BED59 /* OtherCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherCtrl.m; sourceTree = "<group>"; };
+		CD44E31E1F32B7FB005BED59 /* CoreNFCCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreNFCCtrl.h; sourceTree = "<group>"; };
+		CD44E31F1F32B7FB005BED59 /* CoreNFCCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreNFCCtrl.m; sourceTree = "<group>"; };
+		CD44E3221F32B817005BED59 /* CoreBluetoothCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreBluetoothCtrl.h; sourceTree = "<group>"; };
+		CD44E3231F32B817005BED59 /* CoreBluetoothCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreBluetoothCtrl.m; sourceTree = "<group>"; };
 		CD7410381F2AD54D006AFCB8 /* AALearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AALearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD74103C1F2AD54D006AFCB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD74103E1F2AD54D006AFCB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -403,6 +409,7 @@
 				CD44E2F51F32B518005BED59 /* CoreBluetooth */,
 				CD44E2EF1F32B518005BED59 /* Audio */,
 				CD44E3001F32B518005BED59 /* Video */,
+				CD44E3211F32B817005BED59 /* CoreBluetooth */,
 				CD44E2F61F32B518005BED59 /* CoreNFC */,
 			);
 			path = CoreProgramme;
@@ -436,6 +443,8 @@
 		CD44E2F61F32B518005BED59 /* CoreNFC */ = {
 			isa = PBXGroup;
 			children = (
+				CD44E31E1F32B7FB005BED59 /* CoreNFCCtrl.h */,
+				CD44E31F1F32B7FB005BED59 /* CoreNFCCtrl.m */,
 			);
 			path = CoreNFC;
 			sourceTree = "<group>";
@@ -503,6 +512,15 @@
 			path = RunLoop;
 			sourceTree = "<group>";
 		};
+		CD44E3211F32B817005BED59 /* CoreBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				CD44E3221F32B817005BED59 /* CoreBluetoothCtrl.h */,
+				CD44E3231F32B817005BED59 /* CoreBluetoothCtrl.m */,
+			);
+			path = CoreBluetooth;
+			sourceTree = "<group>";
+		};
 		CD74102F1F2AD54D006AFCB8 = {
 			isa = PBXGroup;
 			children = (
@@ -552,8 +570,8 @@
 			children = (
 				CDD9A0E71F2ADF0A006B1594 /* MultiThreadCtrl.h */,
 				CDD9A0E81F2ADF0A006B1594 /* MultiThreadCtrl.m */,
-				CD44E30C1F32B5E8005BED59 /* Block */,
 				CD44E30F1F32B5E8005BED59 /* GCD */,
+				CD44E30C1F32B5E8005BED59 /* Block */,
 				CD44E3121F32B5E8005BED59 /* RunLoop */,
 			);
 			path = MultiThread;
@@ -765,6 +783,7 @@
 				CD44E2E41F32B489005BED59 /* InstrumentCtrl.m in Sources */,
 				CDD9A1461F2B383D006B1594 /* Monkey.m in Sources */,
 				CD44E2381F32B11C005BED59 /* NSObject+Property.m in Sources */,
+				CD44E3241F32B817005BED59 /* CoreBluetoothCtrl.m in Sources */,
 				CD44E3031F32B518005BED59 /* AudioCtrl.m in Sources */,
 				CD0957831F32A899004CA5BD /* BaseViewController.m in Sources */,
 				CD0957841F32A899004CA5BD /* AANavigationController.m in Sources */,
@@ -774,6 +793,7 @@
 				CDD9A1411F2B3453006B1594 /* TestMsgSend.m in Sources */,
 				CD44E2EA1F32B489005BED59 /* SDWebImageCtrl.m in Sources */,
 				CDD9A1371F2B336E006B1594 /* NSObject+JsonModel.m in Sources */,
+				CD44E3201F32B7FB005BED59 /* CoreNFCCtrl.m in Sources */,
 				CD44E2E01F32B489005BED59 /* ClassDumpCtrl.m in Sources */,
 				CD44E2DF1F32B489005BED59 /* ARKitCtrl.m in Sources */,
 				CD0957851F32A899004CA5BD /* AATabBarController.m in Sources */,
