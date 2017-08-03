@@ -45,10 +45,10 @@
     // Do any additional setup after loading the view from its nib.
     
     //TarBar初始化,数据初始化
-    NSArray *titleArr = [NSArray arrayWithObjects:@"Runtime",@"多线程",@"我的", nil];
+    NSArray *titleArr = [NSArray arrayWithObjects:@"Runtime",@"多线程",@"核心编程", nil];
     NSArray *controllerArr = [NSArray arrayWithObjects:@"RuntimeCtrl",
-                              @"RuntimeCtrl",
-                              @"RuntimeCtrl", nil];
+                              @"MultiThreadCtrl",
+                              @"CoreProgrammeCtrl", nil];
     NSArray *imgNormalArr = [NSArray arrayWithObjects:@"tabbar_home",@"tabbar_recommend",@"tabbar_mine", nil];
     NSArray *imgSelectedArr = [NSArray arrayWithObjects:@"tabbar_home_s",@"tabbar_recommend_s",@"tabbar_mine_s", nil];
 

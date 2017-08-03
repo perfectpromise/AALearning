@@ -17,39 +17,39 @@
 		CD44E2331F32B0F3005BED59 /* ResponderChainCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E22E1F32B0F3005BED59 /* ResponderChainCtrl.m */; };
 		CD44E2341F32B0F3005BED59 /* UIView+Responder.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E2301F32B0F3005BED59 /* UIView+Responder.m */; };
 		CD44E2381F32B11C005BED59 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E2371F32B11C005BED59 /* NSObject+Property.m */; };
+		CD44E2DE1F32B489005BED59 /* AFNetworkCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E2B01F32B489005BED59 /* AFNetworkCtrl.m */; };
+		CD44E2DF1F32B489005BED59 /* ARKitCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E2B31F32B489005BED59 /* ARKitCtrl.m */; };
+		CD44E2E01F32B489005BED59 /* ClassDumpCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E2B61F32B489005BED59 /* ClassDumpCtrl.m */; };
+		CD44E2E11F32B489005BED59 /* FishHookCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E2B91F32B489005BED59 /* FishHookCtrl.m */; };
+		CD44E2E21F32B489005BED59 /* GCCCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E2BC1F32B489005BED59 /* GCCCtrl.m */; };
+		CD44E2E31F32B489005BED59 /* HTMLCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E2BF1F32B489005BED59 /* HTMLCtrl.m */; };
+		CD44E2E41F32B489005BED59 /* InstrumentCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E2C21F32B489005BED59 /* InstrumentCtrl.m */; };
+		CD44E2E51F32B489005BED59 /* JsonModelCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E2C51F32B489005BED59 /* JsonModelCtrl.m */; };
+		CD44E2E61F32B489005BED59 /* KVOCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E2C81F32B489005BED59 /* KVOCtrl.m */; };
+		CD44E2E71F32B489005BED59 /* MJRefreshCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E2CB1F32B489005BED59 /* MJRefreshCtrl.m */; };
+		CD44E2E81F32B489005BED59 /* MVVMCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E2CE1F32B489005BED59 /* MVVMCtrl.m */; };
+		CD44E2E91F32B489005BED59 /* RegularExpressionCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E2D11F32B489005BED59 /* RegularExpressionCtrl.m */; };
+		CD44E2EA1F32B489005BED59 /* SDWebImageCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E2D41F32B489005BED59 /* SDWebImageCtrl.m */; };
+		CD44E2EB1F32B489005BED59 /* SpringCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E2D71F32B489005BED59 /* SpringCtrl.m */; };
+		CD44E2EC1F32B489005BED59 /* SwiftCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E2DA1F32B489005BED59 /* SwiftCtrl.m */; };
+		CD44E2ED1F32B489005BED59 /* UMLCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E2DD1F32B489005BED59 /* UMLCtrl.m */; };
+		CD44E3031F32B518005BED59 /* AudioCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E2F11F32B518005BED59 /* AudioCtrl.m */; };
+		CD44E3041F32B518005BED59 /* CoreAnimationCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E2F41F32B518005BED59 /* CoreAnimationCtrl.m */; };
+		CD44E3051F32B518005BED59 /* CoreTextCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E2F91F32B518005BED59 /* CoreTextCtrl.m */; };
+		CD44E3061F32B518005BED59 /* Quartz2DCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E2FC1F32B518005BED59 /* Quartz2DCtrl.m */; };
+		CD44E3071F32B518005BED59 /* UIBezierPathCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E2FF1F32B518005BED59 /* UIBezierPathCtrl.m */; };
+		CD44E3081F32B518005BED59 /* VideoCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E3021F32B518005BED59 /* VideoCtrl.m */; };
+		CD44E30B1F32B529005BED59 /* CoreProgrammeCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E30A1F32B529005BED59 /* CoreProgrammeCtrl.m */; };
+		CD44E3151F32B5E8005BED59 /* BlockCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E30E1F32B5E8005BED59 /* BlockCtrl.m */; };
+		CD44E3161F32B5E8005BED59 /* GCDCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E3111F32B5E8005BED59 /* GCDCtrl.m */; };
+		CD44E3171F32B5E8005BED59 /* RunLoopCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E3141F32B5E8005BED59 /* RunLoopCtrl.m */; };
+		CD44E31A1F32B695005BED59 /* OtherCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E3191F32B695005BED59 /* OtherCtrl.m */; };
 		CD74103D1F2AD54D006AFCB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74103C1F2AD54D006AFCB8 /* main.m */; };
 		CD7410401F2AD54D006AFCB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74103F1F2AD54D006AFCB8 /* AppDelegate.m */; };
 		CD7410481F2AD54D006AFCB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7410471F2AD54D006AFCB8 /* Assets.xcassets */; };
 		CD74104B1F2AD54D006AFCB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7410491F2AD54D006AFCB8 /* LaunchScreen.storyboard */; };
-		CDCD44151F2C6B8800209265 /* UIBezierPathCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCD44141F2C6B8800209265 /* UIBezierPathCtrl.m */; };
 		CDD9A0D71F2ADBF3006B1594 /* RuntimeCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A0CB1F2ADBF3006B1594 /* RuntimeCtrl.m */; };
-		CDD9A0DD1F2ADE9A006B1594 /* KVOCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A0DC1F2ADE9A006B1594 /* KVOCtrl.m */; };
-		CDD9A0E01F2ADEAA006B1594 /* RegularExpressionCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A0DF1F2ADEAA006B1594 /* RegularExpressionCtrl.m */; };
-		CDD9A0E31F2ADEF1006B1594 /* GCDCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A0E21F2ADEF1006B1594 /* GCDCtrl.m */; };
-		CDD9A0E61F2ADEFE006B1594 /* BlockCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A0E51F2ADEFE006B1594 /* BlockCtrl.m */; };
 		CDD9A0E91F2ADF0A006B1594 /* MultiThreadCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A0E81F2ADF0A006B1594 /* MultiThreadCtrl.m */; };
-		CDD9A0EC1F2ADF16006B1594 /* RunLoopCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A0EB1F2ADF16006B1594 /* RunLoopCtrl.m */; };
-		CDD9A0EF1F2ADF21006B1594 /* CoreTextCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A0EE1F2ADF21006B1594 /* CoreTextCtrl.m */; };
-		CDD9A0F21F2ADF2C006B1594 /* CoreAnimationCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A0F11F2ADF2C006B1594 /* CoreAnimationCtrl.m */; };
-		CDD9A0F51F2ADF39006B1594 /* Quartz2DCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A0F41F2ADF39006B1594 /* Quartz2DCtrl.m */; };
-		CDD9A0F81F2ADF46006B1594 /* SpringCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A0F71F2ADF46006B1594 /* SpringCtrl.m */; };
-		CDD9A0FB1F2ADF51006B1594 /* JsonModelCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A0FA1F2ADF51006B1594 /* JsonModelCtrl.m */; };
-		CDD9A0FE1F2ADF5E006B1594 /* MJRefreshCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A0FD1F2ADF5E006B1594 /* MJRefreshCtrl.m */; };
-		CDD9A1011F2ADF6A006B1594 /* SDWebImageCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A1001F2ADF6A006B1594 /* SDWebImageCtrl.m */; };
-		CDD9A1041F2ADF76006B1594 /* AFNetworkCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A1031F2ADF76006B1594 /* AFNetworkCtrl.m */; };
-		CDD9A1071F2ADF82006B1594 /* InstrumentCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A1061F2ADF82006B1594 /* InstrumentCtrl.m */; };
-		CDD9A10A1F2ADF8E006B1594 /* MVVMCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A1091F2ADF8E006B1594 /* MVVMCtrl.m */; };
-		CDD9A10D1F2ADF99006B1594 /* UMLCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A10C1F2ADF99006B1594 /* UMLCtrl.m */; };
-		CDD9A1101F2ADFA5006B1594 /* HTMLCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A10F1F2ADFA5006B1594 /* HTMLCtrl.m */; };
-		CDD9A1131F2ADFB0006B1594 /* SwiftCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A1121F2ADFB0006B1594 /* SwiftCtrl.m */; };
-		CDD9A1161F2ADFBD006B1594 /* AudioCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A1151F2ADFBD006B1594 /* AudioCtrl.m */; };
-		CDD9A1191F2ADFC8006B1594 /* VideoCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A1181F2ADFC8006B1594 /* VideoCtrl.m */; };
-		CDD9A11C1F2ADFD9006B1594 /* CoreBluetoothCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A11B1F2ADFD9006B1594 /* CoreBluetoothCtrl.m */; };
-		CDD9A11F1F2ADFE3006B1594 /* ARKitCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A11E1F2ADFE3006B1594 /* ARKitCtrl.m */; };
-		CDD9A1221F2ADFED006B1594 /* CoreNFCCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A1211F2ADFED006B1594 /* CoreNFCCtrl.m */; };
-		CDD9A1251F2ADFF9006B1594 /* ClassDumpCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A1241F2ADFF9006B1594 /* ClassDumpCtrl.m */; };
-		CDD9A1281F2AE003006B1594 /* FishHookCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A1271F2AE003006B1594 /* FishHookCtrl.m */; };
-		CDD9A12B1F2AE00E006B1594 /* GCCCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A12A1F2AE00E006B1594 /* GCCCtrl.m */; };
 		CDD9A1371F2B336E006B1594 /* NSObject+JsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A1341F2B336E006B1594 /* NSObject+JsonModel.m */; };
 		CDD9A13E1F2B342F006B1594 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A13D1F2B342F006B1594 /* TestModel.m */; };
 		CDD9A1411F2B3453006B1594 /* TestMsgSend.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A1401F2B3453006B1594 /* TestMsgSend.m */; };
@@ -79,6 +79,60 @@
 		CD44E2301F32B0F3005BED59 /* UIView+Responder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Responder.m"; sourceTree = "<group>"; };
 		CD44E2361F32B11C005BED59 /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
 		CD44E2371F32B11C005BED59 /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
+		CD44E2AF1F32B489005BED59 /* AFNetworkCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkCtrl.h; sourceTree = "<group>"; };
+		CD44E2B01F32B489005BED59 /* AFNetworkCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkCtrl.m; sourceTree = "<group>"; };
+		CD44E2B21F32B489005BED59 /* ARKitCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARKitCtrl.h; sourceTree = "<group>"; };
+		CD44E2B31F32B489005BED59 /* ARKitCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARKitCtrl.m; sourceTree = "<group>"; };
+		CD44E2B51F32B489005BED59 /* ClassDumpCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassDumpCtrl.h; sourceTree = "<group>"; };
+		CD44E2B61F32B489005BED59 /* ClassDumpCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassDumpCtrl.m; sourceTree = "<group>"; };
+		CD44E2B81F32B489005BED59 /* FishHookCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FishHookCtrl.h; sourceTree = "<group>"; };
+		CD44E2B91F32B489005BED59 /* FishHookCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FishHookCtrl.m; sourceTree = "<group>"; };
+		CD44E2BB1F32B489005BED59 /* GCCCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCCCtrl.h; sourceTree = "<group>"; };
+		CD44E2BC1F32B489005BED59 /* GCCCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCCCtrl.m; sourceTree = "<group>"; };
+		CD44E2BE1F32B489005BED59 /* HTMLCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLCtrl.h; sourceTree = "<group>"; };
+		CD44E2BF1F32B489005BED59 /* HTMLCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLCtrl.m; sourceTree = "<group>"; };
+		CD44E2C11F32B489005BED59 /* InstrumentCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstrumentCtrl.h; sourceTree = "<group>"; };
+		CD44E2C21F32B489005BED59 /* InstrumentCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstrumentCtrl.m; sourceTree = "<group>"; };
+		CD44E2C41F32B489005BED59 /* JsonModelCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonModelCtrl.h; sourceTree = "<group>"; };
+		CD44E2C51F32B489005BED59 /* JsonModelCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonModelCtrl.m; sourceTree = "<group>"; };
+		CD44E2C71F32B489005BED59 /* KVOCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOCtrl.h; sourceTree = "<group>"; };
+		CD44E2C81F32B489005BED59 /* KVOCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOCtrl.m; sourceTree = "<group>"; };
+		CD44E2CA1F32B489005BED59 /* MJRefreshCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshCtrl.h; sourceTree = "<group>"; };
+		CD44E2CB1F32B489005BED59 /* MJRefreshCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshCtrl.m; sourceTree = "<group>"; };
+		CD44E2CD1F32B489005BED59 /* MVVMCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVVMCtrl.h; sourceTree = "<group>"; };
+		CD44E2CE1F32B489005BED59 /* MVVMCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVVMCtrl.m; sourceTree = "<group>"; };
+		CD44E2D01F32B489005BED59 /* RegularExpressionCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegularExpressionCtrl.h; sourceTree = "<group>"; };
+		CD44E2D11F32B489005BED59 /* RegularExpressionCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegularExpressionCtrl.m; sourceTree = "<group>"; };
+		CD44E2D31F32B489005BED59 /* SDWebImageCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCtrl.h; sourceTree = "<group>"; };
+		CD44E2D41F32B489005BED59 /* SDWebImageCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCtrl.m; sourceTree = "<group>"; };
+		CD44E2D61F32B489005BED59 /* SpringCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringCtrl.h; sourceTree = "<group>"; };
+		CD44E2D71F32B489005BED59 /* SpringCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringCtrl.m; sourceTree = "<group>"; };
+		CD44E2D91F32B489005BED59 /* SwiftCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftCtrl.h; sourceTree = "<group>"; };
+		CD44E2DA1F32B489005BED59 /* SwiftCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiftCtrl.m; sourceTree = "<group>"; };
+		CD44E2DC1F32B489005BED59 /* UMLCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMLCtrl.h; sourceTree = "<group>"; };
+		CD44E2DD1F32B489005BED59 /* UMLCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMLCtrl.m; sourceTree = "<group>"; };
+		CD44E2F01F32B518005BED59 /* AudioCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioCtrl.h; sourceTree = "<group>"; };
+		CD44E2F11F32B518005BED59 /* AudioCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioCtrl.m; sourceTree = "<group>"; };
+		CD44E2F31F32B518005BED59 /* CoreAnimationCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimationCtrl.h; sourceTree = "<group>"; };
+		CD44E2F41F32B518005BED59 /* CoreAnimationCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationCtrl.m; sourceTree = "<group>"; };
+		CD44E2F81F32B518005BED59 /* CoreTextCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTextCtrl.h; sourceTree = "<group>"; };
+		CD44E2F91F32B518005BED59 /* CoreTextCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextCtrl.m; sourceTree = "<group>"; };
+		CD44E2FB1F32B518005BED59 /* Quartz2DCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quartz2DCtrl.h; sourceTree = "<group>"; };
+		CD44E2FC1F32B518005BED59 /* Quartz2DCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quartz2DCtrl.m; sourceTree = "<group>"; };
+		CD44E2FE1F32B518005BED59 /* UIBezierPathCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBezierPathCtrl.h; sourceTree = "<group>"; };
+		CD44E2FF1F32B518005BED59 /* UIBezierPathCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBezierPathCtrl.m; sourceTree = "<group>"; };
+		CD44E3011F32B518005BED59 /* VideoCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCtrl.h; sourceTree = "<group>"; };
+		CD44E3021F32B518005BED59 /* VideoCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCtrl.m; sourceTree = "<group>"; };
+		CD44E3091F32B529005BED59 /* CoreProgrammeCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreProgrammeCtrl.h; sourceTree = "<group>"; };
+		CD44E30A1F32B529005BED59 /* CoreProgrammeCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreProgrammeCtrl.m; sourceTree = "<group>"; };
+		CD44E30D1F32B5E8005BED59 /* BlockCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockCtrl.h; sourceTree = "<group>"; };
+		CD44E30E1F32B5E8005BED59 /* BlockCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockCtrl.m; sourceTree = "<group>"; };
+		CD44E3101F32B5E8005BED59 /* GCDCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDCtrl.h; sourceTree = "<group>"; };
+		CD44E3111F32B5E8005BED59 /* GCDCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDCtrl.m; sourceTree = "<group>"; };
+		CD44E3131F32B5E8005BED59 /* RunLoopCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunLoopCtrl.h; sourceTree = "<group>"; };
+		CD44E3141F32B5E8005BED59 /* RunLoopCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunLoopCtrl.m; sourceTree = "<group>"; };
+		CD44E3181F32B695005BED59 /* OtherCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherCtrl.h; sourceTree = "<group>"; };
+		CD44E3191F32B695005BED59 /* OtherCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherCtrl.m; sourceTree = "<group>"; };
 		CD7410381F2AD54D006AFCB8 /* AALearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AALearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD74103C1F2AD54D006AFCB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD74103E1F2AD54D006AFCB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -86,64 +140,10 @@
 		CD7410471F2AD54D006AFCB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD74104A1F2AD54D006AFCB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD74104C1F2AD54D006AFCB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CDCD44131F2C6B8800209265 /* UIBezierPathCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBezierPathCtrl.h; sourceTree = "<group>"; };
-		CDCD44141F2C6B8800209265 /* UIBezierPathCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBezierPathCtrl.m; sourceTree = "<group>"; };
 		CDD9A0CA1F2ADBF3006B1594 /* RuntimeCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeCtrl.h; sourceTree = "<group>"; };
 		CDD9A0CB1F2ADBF3006B1594 /* RuntimeCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeCtrl.m; sourceTree = "<group>"; };
-		CDD9A0DB1F2ADE9A006B1594 /* KVOCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOCtrl.h; sourceTree = "<group>"; };
-		CDD9A0DC1F2ADE9A006B1594 /* KVOCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOCtrl.m; sourceTree = "<group>"; };
-		CDD9A0DE1F2ADEAA006B1594 /* RegularExpressionCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegularExpressionCtrl.h; sourceTree = "<group>"; };
-		CDD9A0DF1F2ADEAA006B1594 /* RegularExpressionCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegularExpressionCtrl.m; sourceTree = "<group>"; };
-		CDD9A0E11F2ADEF1006B1594 /* GCDCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDCtrl.h; sourceTree = "<group>"; };
-		CDD9A0E21F2ADEF1006B1594 /* GCDCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDCtrl.m; sourceTree = "<group>"; };
-		CDD9A0E41F2ADEFE006B1594 /* BlockCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockCtrl.h; sourceTree = "<group>"; };
-		CDD9A0E51F2ADEFE006B1594 /* BlockCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockCtrl.m; sourceTree = "<group>"; };
 		CDD9A0E71F2ADF0A006B1594 /* MultiThreadCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiThreadCtrl.h; sourceTree = "<group>"; };
 		CDD9A0E81F2ADF0A006B1594 /* MultiThreadCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiThreadCtrl.m; sourceTree = "<group>"; };
-		CDD9A0EA1F2ADF16006B1594 /* RunLoopCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunLoopCtrl.h; sourceTree = "<group>"; };
-		CDD9A0EB1F2ADF16006B1594 /* RunLoopCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunLoopCtrl.m; sourceTree = "<group>"; };
-		CDD9A0ED1F2ADF21006B1594 /* CoreTextCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTextCtrl.h; sourceTree = "<group>"; };
-		CDD9A0EE1F2ADF21006B1594 /* CoreTextCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextCtrl.m; sourceTree = "<group>"; };
-		CDD9A0F01F2ADF2C006B1594 /* CoreAnimationCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimationCtrl.h; sourceTree = "<group>"; };
-		CDD9A0F11F2ADF2C006B1594 /* CoreAnimationCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationCtrl.m; sourceTree = "<group>"; };
-		CDD9A0F31F2ADF39006B1594 /* Quartz2DCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quartz2DCtrl.h; sourceTree = "<group>"; };
-		CDD9A0F41F2ADF39006B1594 /* Quartz2DCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quartz2DCtrl.m; sourceTree = "<group>"; };
-		CDD9A0F61F2ADF46006B1594 /* SpringCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringCtrl.h; sourceTree = "<group>"; };
-		CDD9A0F71F2ADF46006B1594 /* SpringCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringCtrl.m; sourceTree = "<group>"; };
-		CDD9A0F91F2ADF51006B1594 /* JsonModelCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonModelCtrl.h; sourceTree = "<group>"; };
-		CDD9A0FA1F2ADF51006B1594 /* JsonModelCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonModelCtrl.m; sourceTree = "<group>"; };
-		CDD9A0FC1F2ADF5E006B1594 /* MJRefreshCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshCtrl.h; sourceTree = "<group>"; };
-		CDD9A0FD1F2ADF5E006B1594 /* MJRefreshCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshCtrl.m; sourceTree = "<group>"; };
-		CDD9A0FF1F2ADF6A006B1594 /* SDWebImageCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCtrl.h; sourceTree = "<group>"; };
-		CDD9A1001F2ADF6A006B1594 /* SDWebImageCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCtrl.m; sourceTree = "<group>"; };
-		CDD9A1021F2ADF76006B1594 /* AFNetworkCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkCtrl.h; sourceTree = "<group>"; };
-		CDD9A1031F2ADF76006B1594 /* AFNetworkCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkCtrl.m; sourceTree = "<group>"; };
-		CDD9A1051F2ADF82006B1594 /* InstrumentCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstrumentCtrl.h; sourceTree = "<group>"; };
-		CDD9A1061F2ADF82006B1594 /* InstrumentCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstrumentCtrl.m; sourceTree = "<group>"; };
-		CDD9A1081F2ADF8E006B1594 /* MVVMCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVVMCtrl.h; sourceTree = "<group>"; };
-		CDD9A1091F2ADF8E006B1594 /* MVVMCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVVMCtrl.m; sourceTree = "<group>"; };
-		CDD9A10B1F2ADF99006B1594 /* UMLCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMLCtrl.h; sourceTree = "<group>"; };
-		CDD9A10C1F2ADF99006B1594 /* UMLCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMLCtrl.m; sourceTree = "<group>"; };
-		CDD9A10E1F2ADFA5006B1594 /* HTMLCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLCtrl.h; sourceTree = "<group>"; };
-		CDD9A10F1F2ADFA5006B1594 /* HTMLCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLCtrl.m; sourceTree = "<group>"; };
-		CDD9A1111F2ADFB0006B1594 /* SwiftCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftCtrl.h; sourceTree = "<group>"; };
-		CDD9A1121F2ADFB0006B1594 /* SwiftCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiftCtrl.m; sourceTree = "<group>"; };
-		CDD9A1141F2ADFBD006B1594 /* AudioCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioCtrl.h; sourceTree = "<group>"; };
-		CDD9A1151F2ADFBD006B1594 /* AudioCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioCtrl.m; sourceTree = "<group>"; };
-		CDD9A1171F2ADFC8006B1594 /* VideoCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCtrl.h; sourceTree = "<group>"; };
-		CDD9A1181F2ADFC8006B1594 /* VideoCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCtrl.m; sourceTree = "<group>"; };
-		CDD9A11A1F2ADFD9006B1594 /* CoreBluetoothCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreBluetoothCtrl.h; sourceTree = "<group>"; };
-		CDD9A11B1F2ADFD9006B1594 /* CoreBluetoothCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreBluetoothCtrl.m; sourceTree = "<group>"; };
-		CDD9A11D1F2ADFE3006B1594 /* ARKitCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARKitCtrl.h; sourceTree = "<group>"; };
-		CDD9A11E1F2ADFE3006B1594 /* ARKitCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARKitCtrl.m; sourceTree = "<group>"; };
-		CDD9A1201F2ADFED006B1594 /* CoreNFCCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreNFCCtrl.h; sourceTree = "<group>"; };
-		CDD9A1211F2ADFED006B1594 /* CoreNFCCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreNFCCtrl.m; sourceTree = "<group>"; };
-		CDD9A1231F2ADFF9006B1594 /* ClassDumpCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassDumpCtrl.h; sourceTree = "<group>"; };
-		CDD9A1241F2ADFF9006B1594 /* ClassDumpCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassDumpCtrl.m; sourceTree = "<group>"; };
-		CDD9A1261F2AE003006B1594 /* FishHookCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FishHookCtrl.h; sourceTree = "<group>"; };
-		CDD9A1271F2AE003006B1594 /* FishHookCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FishHookCtrl.m; sourceTree = "<group>"; };
-		CDD9A1291F2AE00E006B1594 /* GCCCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCCCtrl.h; sourceTree = "<group>"; };
-		CDD9A12A1F2AE00E006B1594 /* GCCCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCCCtrl.m; sourceTree = "<group>"; };
 		CDD9A1331F2B336E006B1594 /* NSObject+JsonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JsonModel.h"; sourceTree = "<group>"; };
 		CDD9A1341F2B336E006B1594 /* NSObject+JsonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JsonModel.m"; sourceTree = "<group>"; };
 		CDD9A13C1F2B342F006B1594 /* TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
@@ -222,6 +222,287 @@
 			path = "关联对象";
 			sourceTree = "<group>";
 		};
+		CD44E2AD1F32B489005BED59 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CD44E3181F32B695005BED59 /* OtherCtrl.h */,
+				CD44E3191F32B695005BED59 /* OtherCtrl.m */,
+				CD44E2C61F32B489005BED59 /* KVO */,
+				CD44E2CF1F32B489005BED59 /* RegularExpression */,
+				CD44E2C31F32B489005BED59 /* JsonModel */,
+				CD44E2C01F32B489005BED59 /* Instrument */,
+				CD44E2C91F32B489005BED59 /* MJRefresh */,
+				CD44E2AE1F32B489005BED59 /* AFNetwork */,
+				CD44E2D21F32B489005BED59 /* SDWebImage */,
+				CD44E2BD1F32B489005BED59 /* HTML */,
+				CD44E2D81F32B489005BED59 /* Swift */,
+				CD44E2B11F32B489005BED59 /* ARKit */,
+				CD44E2B41F32B489005BED59 /* ClassDump */,
+				CD44E2B71F32B489005BED59 /* FishHook */,
+				CD44E2BA1F32B489005BED59 /* GCC */,
+				CD44E2CC1F32B489005BED59 /* MVVM */,
+				CD44E2D51F32B489005BED59 /* Spring */,
+				CD44E2DB1F32B489005BED59 /* UML */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		CD44E2AE1F32B489005BED59 /* AFNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				CD44E2AF1F32B489005BED59 /* AFNetworkCtrl.h */,
+				CD44E2B01F32B489005BED59 /* AFNetworkCtrl.m */,
+			);
+			path = AFNetwork;
+			sourceTree = "<group>";
+		};
+		CD44E2B11F32B489005BED59 /* ARKit */ = {
+			isa = PBXGroup;
+			children = (
+				CD44E2B21F32B489005BED59 /* ARKitCtrl.h */,
+				CD44E2B31F32B489005BED59 /* ARKitCtrl.m */,
+			);
+			path = ARKit;
+			sourceTree = "<group>";
+		};
+		CD44E2B41F32B489005BED59 /* ClassDump */ = {
+			isa = PBXGroup;
+			children = (
+				CD44E2B51F32B489005BED59 /* ClassDumpCtrl.h */,
+				CD44E2B61F32B489005BED59 /* ClassDumpCtrl.m */,
+			);
+			path = ClassDump;
+			sourceTree = "<group>";
+		};
+		CD44E2B71F32B489005BED59 /* FishHook */ = {
+			isa = PBXGroup;
+			children = (
+				CD44E2B81F32B489005BED59 /* FishHookCtrl.h */,
+				CD44E2B91F32B489005BED59 /* FishHookCtrl.m */,
+			);
+			path = FishHook;
+			sourceTree = "<group>";
+		};
+		CD44E2BA1F32B489005BED59 /* GCC */ = {
+			isa = PBXGroup;
+			children = (
+				CD44E2BB1F32B489005BED59 /* GCCCtrl.h */,
+				CD44E2BC1F32B489005BED59 /* GCCCtrl.m */,
+			);
+			path = GCC;
+			sourceTree = "<group>";
+		};
+		CD44E2BD1F32B489005BED59 /* HTML */ = {
+			isa = PBXGroup;
+			children = (
+				CD44E2BE1F32B489005BED59 /* HTMLCtrl.h */,
+				CD44E2BF1F32B489005BED59 /* HTMLCtrl.m */,
+			);
+			path = HTML;
+			sourceTree = "<group>";
+		};
+		CD44E2C01F32B489005BED59 /* Instrument */ = {
+			isa = PBXGroup;
+			children = (
+				CD44E2C11F32B489005BED59 /* InstrumentCtrl.h */,
+				CD44E2C21F32B489005BED59 /* InstrumentCtrl.m */,
+			);
+			path = Instrument;
+			sourceTree = "<group>";
+		};
+		CD44E2C31F32B489005BED59 /* JsonModel */ = {
+			isa = PBXGroup;
+			children = (
+				CD44E2C41F32B489005BED59 /* JsonModelCtrl.h */,
+				CD44E2C51F32B489005BED59 /* JsonModelCtrl.m */,
+			);
+			path = JsonModel;
+			sourceTree = "<group>";
+		};
+		CD44E2C61F32B489005BED59 /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				CD44E2C71F32B489005BED59 /* KVOCtrl.h */,
+				CD44E2C81F32B489005BED59 /* KVOCtrl.m */,
+			);
+			path = KVO;
+			sourceTree = "<group>";
+		};
+		CD44E2C91F32B489005BED59 /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				CD44E2CA1F32B489005BED59 /* MJRefreshCtrl.h */,
+				CD44E2CB1F32B489005BED59 /* MJRefreshCtrl.m */,
+			);
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		CD44E2CC1F32B489005BED59 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				CD44E2CD1F32B489005BED59 /* MVVMCtrl.h */,
+				CD44E2CE1F32B489005BED59 /* MVVMCtrl.m */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		CD44E2CF1F32B489005BED59 /* RegularExpression */ = {
+			isa = PBXGroup;
+			children = (
+				CD44E2D01F32B489005BED59 /* RegularExpressionCtrl.h */,
+				CD44E2D11F32B489005BED59 /* RegularExpressionCtrl.m */,
+			);
+			path = RegularExpression;
+			sourceTree = "<group>";
+		};
+		CD44E2D21F32B489005BED59 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				CD44E2D31F32B489005BED59 /* SDWebImageCtrl.h */,
+				CD44E2D41F32B489005BED59 /* SDWebImageCtrl.m */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		CD44E2D51F32B489005BED59 /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				CD44E2D61F32B489005BED59 /* SpringCtrl.h */,
+				CD44E2D71F32B489005BED59 /* SpringCtrl.m */,
+			);
+			path = Spring;
+			sourceTree = "<group>";
+		};
+		CD44E2D81F32B489005BED59 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				CD44E2D91F32B489005BED59 /* SwiftCtrl.h */,
+				CD44E2DA1F32B489005BED59 /* SwiftCtrl.m */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		CD44E2DB1F32B489005BED59 /* UML */ = {
+			isa = PBXGroup;
+			children = (
+				CD44E2DC1F32B489005BED59 /* UMLCtrl.h */,
+				CD44E2DD1F32B489005BED59 /* UMLCtrl.m */,
+			);
+			path = UML;
+			sourceTree = "<group>";
+		};
+		CD44E2EE1F32B4BD005BED59 /* CoreProgramme */ = {
+			isa = PBXGroup;
+			children = (
+				CD44E3091F32B529005BED59 /* CoreProgrammeCtrl.h */,
+				CD44E30A1F32B529005BED59 /* CoreProgrammeCtrl.m */,
+				CD44E2F71F32B518005BED59 /* CoreText */,
+				CD44E2F21F32B518005BED59 /* CoreAnimation */,
+				CD44E2FD1F32B518005BED59 /* UIBezierPath */,
+				CD44E2FA1F32B518005BED59 /* Quartz2D */,
+				CD44E2F51F32B518005BED59 /* CoreBluetooth */,
+				CD44E2EF1F32B518005BED59 /* Audio */,
+				CD44E3001F32B518005BED59 /* Video */,
+				CD44E2F61F32B518005BED59 /* CoreNFC */,
+			);
+			path = CoreProgramme;
+			sourceTree = "<group>";
+		};
+		CD44E2EF1F32B518005BED59 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				CD44E2F01F32B518005BED59 /* AudioCtrl.h */,
+				CD44E2F11F32B518005BED59 /* AudioCtrl.m */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		CD44E2F21F32B518005BED59 /* CoreAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				CD44E2F31F32B518005BED59 /* CoreAnimationCtrl.h */,
+				CD44E2F41F32B518005BED59 /* CoreAnimationCtrl.m */,
+			);
+			path = CoreAnimation;
+			sourceTree = "<group>";
+		};
+		CD44E2F51F32B518005BED59 /* CoreBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreBluetooth;
+			sourceTree = "<group>";
+		};
+		CD44E2F61F32B518005BED59 /* CoreNFC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreNFC;
+			sourceTree = "<group>";
+		};
+		CD44E2F71F32B518005BED59 /* CoreText */ = {
+			isa = PBXGroup;
+			children = (
+				CD44E2F81F32B518005BED59 /* CoreTextCtrl.h */,
+				CD44E2F91F32B518005BED59 /* CoreTextCtrl.m */,
+			);
+			path = CoreText;
+			sourceTree = "<group>";
+		};
+		CD44E2FA1F32B518005BED59 /* Quartz2D */ = {
+			isa = PBXGroup;
+			children = (
+				CD44E2FB1F32B518005BED59 /* Quartz2DCtrl.h */,
+				CD44E2FC1F32B518005BED59 /* Quartz2DCtrl.m */,
+			);
+			path = Quartz2D;
+			sourceTree = "<group>";
+		};
+		CD44E2FD1F32B518005BED59 /* UIBezierPath */ = {
+			isa = PBXGroup;
+			children = (
+				CD44E2FE1F32B518005BED59 /* UIBezierPathCtrl.h */,
+				CD44E2FF1F32B518005BED59 /* UIBezierPathCtrl.m */,
+			);
+			path = UIBezierPath;
+			sourceTree = "<group>";
+		};
+		CD44E3001F32B518005BED59 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				CD44E3011F32B518005BED59 /* VideoCtrl.h */,
+				CD44E3021F32B518005BED59 /* VideoCtrl.m */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		CD44E30C1F32B5E8005BED59 /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				CD44E30D1F32B5E8005BED59 /* BlockCtrl.h */,
+				CD44E30E1F32B5E8005BED59 /* BlockCtrl.m */,
+			);
+			path = Block;
+			sourceTree = "<group>";
+		};
+		CD44E30F1F32B5E8005BED59 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				CD44E3101F32B5E8005BED59 /* GCDCtrl.h */,
+				CD44E3111F32B5E8005BED59 /* GCDCtrl.m */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		CD44E3121F32B5E8005BED59 /* RunLoop */ = {
+			isa = PBXGroup;
+			children = (
+				CD44E3131F32B5E8005BED59 /* RunLoopCtrl.h */,
+				CD44E3141F32B5E8005BED59 /* RunLoopCtrl.m */,
+			);
+			path = RunLoop;
+			sourceTree = "<group>";
+		};
 		CD74102F1F2AD54D006AFCB8 = {
 			isa = PBXGroup;
 			children = (
@@ -247,34 +528,9 @@
 				CD74103F1F2AD54D006AFCB8 /* AppDelegate.m */,
 				CD09577C1F32A888004CA5BD /* Base */,
 				CDD9A0C61F2ADBF3006B1594 /* RunTime */,
-				CDD9A0BF1F2ADBF3006B1594 /* RegularExpression */,
-				CDD9A0B31F2ADBF3006B1594 /* KVO */,
-				CDD9A0AE1F2ADBF3006B1594 /* GCD */,
-				CDD9A0A61F2ADBF3006B1594 /* Block */,
 				CDD9A0BC1F2ADBF3006B1594 /* MultiThread */,
-				CDD9A0C51F2ADBF3006B1594 /* RunLoop */,
-				CDD9A0AB1F2ADBF3006B1594 /* CoreText */,
-				CDD9A0A81F2ADBF3006B1594 /* CoreAnimation */,
-				CDCD44121F2C6B7800209265 /* UIBezierPath */,
-				CDD9A0BE1F2ADBF3006B1594 /* Quartz2D */,
-				CDD9A0CD1F2ADBF3006B1594 /* Spring */,
-				CDD9A0B21F2ADBF3006B1594 /* JsonModel */,
-				CDD9A0BB1F2ADBF3006B1594 /* MJRefresh */,
-				CDD9A0CC1F2ADBF3006B1594 /* SDWebImage */,
-				CDD9A0A31F2ADBF3006B1594 /* AFNetwork */,
-				CDD9A0B11F2ADBF3006B1594 /* Instrument */,
-				CDD9A0BD1F2ADBF3006B1594 /* MVVM */,
-				CDD9A0CF1F2ADBF3006B1594 /* UML */,
-				CDD9A0B01F2ADBF3006B1594 /* HTML */,
-				CDD9A0CE1F2ADBF3006B1594 /* Swift */,
-				CDD9A0A51F2ADBF3006B1594 /* Audio */,
-				CDD9A0D01F2ADBF3006B1594 /* Video */,
-				CDD9A0A91F2ADBF3006B1594 /* CoreBluetooth */,
-				CDD9A0A41F2ADBF3006B1594 /* ARKit */,
-				CDD9A0AA1F2ADBF3006B1594 /* CoreNFC */,
-				CDD9A0A71F2ADBF3006B1594 /* ClassDump */,
-				CDD9A0AC1F2ADBF3006B1594 /* FishHook */,
-				CDD9A0AD1F2ADBF3006B1594 /* GCC */,
+				CD44E2EE1F32B4BD005BED59 /* CoreProgramme */,
+				CD44E2AD1F32B489005BED59 /* Other */,
 				CD7410471F2AD54D006AFCB8 /* Assets.xcassets */,
 				CD7410491F2AD54D006AFCB8 /* LaunchScreen.storyboard */,
 				CD74104C1F2AD54D006AFCB8 /* Info.plist */,
@@ -291,211 +547,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CDCD44121F2C6B7800209265 /* UIBezierPath */ = {
-			isa = PBXGroup;
-			children = (
-				CDCD44131F2C6B8800209265 /* UIBezierPathCtrl.h */,
-				CDCD44141F2C6B8800209265 /* UIBezierPathCtrl.m */,
-			);
-			path = UIBezierPath;
-			sourceTree = "<group>";
-		};
-		CDD9A0A31F2ADBF3006B1594 /* AFNetwork */ = {
-			isa = PBXGroup;
-			children = (
-				CDD9A1021F2ADF76006B1594 /* AFNetworkCtrl.h */,
-				CDD9A1031F2ADF76006B1594 /* AFNetworkCtrl.m */,
-			);
-			path = AFNetwork;
-			sourceTree = "<group>";
-		};
-		CDD9A0A41F2ADBF3006B1594 /* ARKit */ = {
-			isa = PBXGroup;
-			children = (
-				CDD9A11D1F2ADFE3006B1594 /* ARKitCtrl.h */,
-				CDD9A11E1F2ADFE3006B1594 /* ARKitCtrl.m */,
-			);
-			path = ARKit;
-			sourceTree = "<group>";
-		};
-		CDD9A0A51F2ADBF3006B1594 /* Audio */ = {
-			isa = PBXGroup;
-			children = (
-				CDD9A1141F2ADFBD006B1594 /* AudioCtrl.h */,
-				CDD9A1151F2ADFBD006B1594 /* AudioCtrl.m */,
-			);
-			path = Audio;
-			sourceTree = "<group>";
-		};
-		CDD9A0A61F2ADBF3006B1594 /* Block */ = {
-			isa = PBXGroup;
-			children = (
-				CDD9A0E41F2ADEFE006B1594 /* BlockCtrl.h */,
-				CDD9A0E51F2ADEFE006B1594 /* BlockCtrl.m */,
-			);
-			path = Block;
-			sourceTree = "<group>";
-		};
-		CDD9A0A71F2ADBF3006B1594 /* ClassDump */ = {
-			isa = PBXGroup;
-			children = (
-				CDD9A1231F2ADFF9006B1594 /* ClassDumpCtrl.h */,
-				CDD9A1241F2ADFF9006B1594 /* ClassDumpCtrl.m */,
-			);
-			path = ClassDump;
-			sourceTree = "<group>";
-		};
-		CDD9A0A81F2ADBF3006B1594 /* CoreAnimation */ = {
-			isa = PBXGroup;
-			children = (
-				CDD9A0F01F2ADF2C006B1594 /* CoreAnimationCtrl.h */,
-				CDD9A0F11F2ADF2C006B1594 /* CoreAnimationCtrl.m */,
-			);
-			path = CoreAnimation;
-			sourceTree = "<group>";
-		};
-		CDD9A0A91F2ADBF3006B1594 /* CoreBluetooth */ = {
-			isa = PBXGroup;
-			children = (
-				CDD9A11A1F2ADFD9006B1594 /* CoreBluetoothCtrl.h */,
-				CDD9A11B1F2ADFD9006B1594 /* CoreBluetoothCtrl.m */,
-			);
-			path = CoreBluetooth;
-			sourceTree = "<group>";
-		};
-		CDD9A0AA1F2ADBF3006B1594 /* CoreNFC */ = {
-			isa = PBXGroup;
-			children = (
-				CDD9A1201F2ADFED006B1594 /* CoreNFCCtrl.h */,
-				CDD9A1211F2ADFED006B1594 /* CoreNFCCtrl.m */,
-			);
-			path = CoreNFC;
-			sourceTree = "<group>";
-		};
-		CDD9A0AB1F2ADBF3006B1594 /* CoreText */ = {
-			isa = PBXGroup;
-			children = (
-				CDD9A0ED1F2ADF21006B1594 /* CoreTextCtrl.h */,
-				CDD9A0EE1F2ADF21006B1594 /* CoreTextCtrl.m */,
-			);
-			path = CoreText;
-			sourceTree = "<group>";
-		};
-		CDD9A0AC1F2ADBF3006B1594 /* FishHook */ = {
-			isa = PBXGroup;
-			children = (
-				CDD9A1261F2AE003006B1594 /* FishHookCtrl.h */,
-				CDD9A1271F2AE003006B1594 /* FishHookCtrl.m */,
-			);
-			path = FishHook;
-			sourceTree = "<group>";
-		};
-		CDD9A0AD1F2ADBF3006B1594 /* GCC */ = {
-			isa = PBXGroup;
-			children = (
-				CDD9A1291F2AE00E006B1594 /* GCCCtrl.h */,
-				CDD9A12A1F2AE00E006B1594 /* GCCCtrl.m */,
-			);
-			path = GCC;
-			sourceTree = "<group>";
-		};
-		CDD9A0AE1F2ADBF3006B1594 /* GCD */ = {
-			isa = PBXGroup;
-			children = (
-				CDD9A0E11F2ADEF1006B1594 /* GCDCtrl.h */,
-				CDD9A0E21F2ADEF1006B1594 /* GCDCtrl.m */,
-			);
-			path = GCD;
-			sourceTree = "<group>";
-		};
-		CDD9A0B01F2ADBF3006B1594 /* HTML */ = {
-			isa = PBXGroup;
-			children = (
-				CDD9A10E1F2ADFA5006B1594 /* HTMLCtrl.h */,
-				CDD9A10F1F2ADFA5006B1594 /* HTMLCtrl.m */,
-			);
-			path = HTML;
-			sourceTree = "<group>";
-		};
-		CDD9A0B11F2ADBF3006B1594 /* Instrument */ = {
-			isa = PBXGroup;
-			children = (
-				CDD9A1051F2ADF82006B1594 /* InstrumentCtrl.h */,
-				CDD9A1061F2ADF82006B1594 /* InstrumentCtrl.m */,
-			);
-			path = Instrument;
-			sourceTree = "<group>";
-		};
-		CDD9A0B21F2ADBF3006B1594 /* JsonModel */ = {
-			isa = PBXGroup;
-			children = (
-				CDD9A0F91F2ADF51006B1594 /* JsonModelCtrl.h */,
-				CDD9A0FA1F2ADF51006B1594 /* JsonModelCtrl.m */,
-			);
-			path = JsonModel;
-			sourceTree = "<group>";
-		};
-		CDD9A0B31F2ADBF3006B1594 /* KVO */ = {
-			isa = PBXGroup;
-			children = (
-				CDD9A0DB1F2ADE9A006B1594 /* KVOCtrl.h */,
-				CDD9A0DC1F2ADE9A006B1594 /* KVOCtrl.m */,
-			);
-			path = KVO;
-			sourceTree = "<group>";
-		};
-		CDD9A0BB1F2ADBF3006B1594 /* MJRefresh */ = {
-			isa = PBXGroup;
-			children = (
-				CDD9A0FC1F2ADF5E006B1594 /* MJRefreshCtrl.h */,
-				CDD9A0FD1F2ADF5E006B1594 /* MJRefreshCtrl.m */,
-			);
-			path = MJRefresh;
-			sourceTree = "<group>";
-		};
 		CDD9A0BC1F2ADBF3006B1594 /* MultiThread */ = {
 			isa = PBXGroup;
 			children = (
 				CDD9A0E71F2ADF0A006B1594 /* MultiThreadCtrl.h */,
 				CDD9A0E81F2ADF0A006B1594 /* MultiThreadCtrl.m */,
+				CD44E30C1F32B5E8005BED59 /* Block */,
+				CD44E30F1F32B5E8005BED59 /* GCD */,
+				CD44E3121F32B5E8005BED59 /* RunLoop */,
 			);
 			path = MultiThread;
-			sourceTree = "<group>";
-		};
-		CDD9A0BD1F2ADBF3006B1594 /* MVVM */ = {
-			isa = PBXGroup;
-			children = (
-				CDD9A1081F2ADF8E006B1594 /* MVVMCtrl.h */,
-				CDD9A1091F2ADF8E006B1594 /* MVVMCtrl.m */,
-			);
-			path = MVVM;
-			sourceTree = "<group>";
-		};
-		CDD9A0BE1F2ADBF3006B1594 /* Quartz2D */ = {
-			isa = PBXGroup;
-			children = (
-				CDD9A0F31F2ADF39006B1594 /* Quartz2DCtrl.h */,
-				CDD9A0F41F2ADF39006B1594 /* Quartz2DCtrl.m */,
-			);
-			path = Quartz2D;
-			sourceTree = "<group>";
-		};
-		CDD9A0BF1F2ADBF3006B1594 /* RegularExpression */ = {
-			isa = PBXGroup;
-			children = (
-				CDD9A0DE1F2ADEAA006B1594 /* RegularExpressionCtrl.h */,
-				CDD9A0DF1F2ADEAA006B1594 /* RegularExpressionCtrl.m */,
-			);
-			path = RegularExpression;
-			sourceTree = "<group>";
-		};
-		CDD9A0C51F2ADBF3006B1594 /* RunLoop */ = {
-			isa = PBXGroup;
-			children = (
-				CDD9A0EA1F2ADF16006B1594 /* RunLoopCtrl.h */,
-				CDD9A0EB1F2ADF16006B1594 /* RunLoopCtrl.m */,
-			);
-			path = RunLoop;
 			sourceTree = "<group>";
 		};
 		CDD9A0C61F2ADBF3006B1594 /* RunTime */ = {
@@ -512,51 +573,6 @@
 				CDD9A13A1F2B33F5006B1594 /* 动态方法解析 */,
 			);
 			path = RunTime;
-			sourceTree = "<group>";
-		};
-		CDD9A0CC1F2ADBF3006B1594 /* SDWebImage */ = {
-			isa = PBXGroup;
-			children = (
-				CDD9A0FF1F2ADF6A006B1594 /* SDWebImageCtrl.h */,
-				CDD9A1001F2ADF6A006B1594 /* SDWebImageCtrl.m */,
-			);
-			path = SDWebImage;
-			sourceTree = "<group>";
-		};
-		CDD9A0CD1F2ADBF3006B1594 /* Spring */ = {
-			isa = PBXGroup;
-			children = (
-				CDD9A0F61F2ADF46006B1594 /* SpringCtrl.h */,
-				CDD9A0F71F2ADF46006B1594 /* SpringCtrl.m */,
-			);
-			path = Spring;
-			sourceTree = "<group>";
-		};
-		CDD9A0CE1F2ADBF3006B1594 /* Swift */ = {
-			isa = PBXGroup;
-			children = (
-				CDD9A1111F2ADFB0006B1594 /* SwiftCtrl.h */,
-				CDD9A1121F2ADFB0006B1594 /* SwiftCtrl.m */,
-			);
-			path = Swift;
-			sourceTree = "<group>";
-		};
-		CDD9A0CF1F2ADBF3006B1594 /* UML */ = {
-			isa = PBXGroup;
-			children = (
-				CDD9A10B1F2ADF99006B1594 /* UMLCtrl.h */,
-				CDD9A10C1F2ADF99006B1594 /* UMLCtrl.m */,
-			);
-			path = UML;
-			sourceTree = "<group>";
-		};
-		CDD9A0D01F2ADBF3006B1594 /* Video */ = {
-			isa = PBXGroup;
-			children = (
-				CDD9A1171F2ADFC8006B1594 /* VideoCtrl.h */,
-				CDD9A1181F2ADFC8006B1594 /* VideoCtrl.m */,
-			);
-			path = Video;
 			sourceTree = "<group>";
 		};
 		CDD9A1321F2B335A006B1594 /* 字典与模型互转（自动归档） */ = {
@@ -728,51 +744,51 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD44E30B1F32B529005BED59 /* CoreProgrammeCtrl.m in Sources */,
 				CD44E2311F32B0F3005BED59 /* NSObject+Swizzle.m in Sources */,
 				CDD9A13E1F2B342F006B1594 /* TestModel.m in Sources */,
-				CDD9A1041F2ADF76006B1594 /* AFNetworkCtrl.m in Sources */,
-				CDD9A0E31F2ADEF1006B1594 /* GCDCtrl.m in Sources */,
-				CDD9A11C1F2ADFD9006B1594 /* CoreBluetoothCtrl.m in Sources */,
-				CDD9A0FE1F2ADF5E006B1594 /* MJRefreshCtrl.m in Sources */,
+				CD44E2E21F32B489005BED59 /* GCCCtrl.m in Sources */,
 				CD44E2321F32B0F3005BED59 /* UIViewController+Swizzle.m in Sources */,
-				CDD9A1161F2ADFBD006B1594 /* AudioCtrl.m in Sources */,
-				CDD9A1281F2AE003006B1594 /* FishHookCtrl.m in Sources */,
-				CDD9A11F1F2ADFE3006B1594 /* ARKitCtrl.m in Sources */,
+				CD44E2E61F32B489005BED59 /* KVOCtrl.m in Sources */,
+				CD44E2E71F32B489005BED59 /* MJRefreshCtrl.m in Sources */,
+				CD44E2E11F32B489005BED59 /* FishHookCtrl.m in Sources */,
+				CD44E3161F32B5E8005BED59 /* GCDCtrl.m in Sources */,
+				CD44E2E51F32B489005BED59 /* JsonModelCtrl.m in Sources */,
+				CD44E3051F32B518005BED59 /* CoreTextCtrl.m in Sources */,
 				CDD9A0E91F2ADF0A006B1594 /* MultiThreadCtrl.m in Sources */,
-				CDD9A1251F2ADFF9006B1594 /* ClassDumpCtrl.m in Sources */,
+				CD44E31A1F32B695005BED59 /* OtherCtrl.m in Sources */,
+				CD44E2ED1F32B489005BED59 /* UMLCtrl.m in Sources */,
+				CD44E3151F32B5E8005BED59 /* BlockCtrl.m in Sources */,
+				CD44E2E91F32B489005BED59 /* RegularExpressionCtrl.m in Sources */,
+				CD44E3071F32B518005BED59 /* UIBezierPathCtrl.m in Sources */,
+				CD44E2E81F32B489005BED59 /* MVVMCtrl.m in Sources */,
+				CD44E2E41F32B489005BED59 /* InstrumentCtrl.m in Sources */,
 				CDD9A1461F2B383D006B1594 /* Monkey.m in Sources */,
 				CD44E2381F32B11C005BED59 /* NSObject+Property.m in Sources */,
-				CDD9A1131F2ADFB0006B1594 /* SwiftCtrl.m in Sources */,
-				CDD9A0F51F2ADF39006B1594 /* Quartz2DCtrl.m in Sources */,
+				CD44E3031F32B518005BED59 /* AudioCtrl.m in Sources */,
 				CD0957831F32A899004CA5BD /* BaseViewController.m in Sources */,
-				CDD9A1011F2ADF6A006B1594 /* SDWebImageCtrl.m in Sources */,
 				CD0957841F32A899004CA5BD /* AANavigationController.m in Sources */,
-				CDD9A0F21F2ADF2C006B1594 /* CoreAnimationCtrl.m in Sources */,
-				CDD9A0E01F2ADEAA006B1594 /* RegularExpressionCtrl.m in Sources */,
 				CDD9A0D71F2ADBF3006B1594 /* RuntimeCtrl.m in Sources */,
 				CD44E2331F32B0F3005BED59 /* ResponderChainCtrl.m in Sources */,
+				CD44E3061F32B518005BED59 /* Quartz2DCtrl.m in Sources */,
 				CDD9A1411F2B3453006B1594 /* TestMsgSend.m in Sources */,
-				CDD9A0F81F2ADF46006B1594 /* SpringCtrl.m in Sources */,
+				CD44E2EA1F32B489005BED59 /* SDWebImageCtrl.m in Sources */,
 				CDD9A1371F2B336E006B1594 /* NSObject+JsonModel.m in Sources */,
-				CDD9A10D1F2ADF99006B1594 /* UMLCtrl.m in Sources */,
-				CDD9A1071F2ADF82006B1594 /* InstrumentCtrl.m in Sources */,
-				CDD9A10A1F2ADF8E006B1594 /* MVVMCtrl.m in Sources */,
+				CD44E2E01F32B489005BED59 /* ClassDumpCtrl.m in Sources */,
+				CD44E2DF1F32B489005BED59 /* ARKitCtrl.m in Sources */,
 				CD0957851F32A899004CA5BD /* AATabBarController.m in Sources */,
-				CDD9A1101F2ADFA5006B1594 /* HTMLCtrl.m in Sources */,
+				CD44E3171F32B5E8005BED59 /* RunLoopCtrl.m in Sources */,
+				CD44E2EB1F32B489005BED59 /* SpringCtrl.m in Sources */,
+				CD44E2E31F32B489005BED59 /* HTMLCtrl.m in Sources */,
 				CD44E2341F32B0F3005BED59 /* UIView+Responder.m in Sources */,
-				CDD9A1191F2ADFC8006B1594 /* VideoCtrl.m in Sources */,
-				CDD9A0DD1F2ADE9A006B1594 /* KVOCtrl.m in Sources */,
+				CD44E3081F32B518005BED59 /* VideoCtrl.m in Sources */,
 				CD7410401F2AD54D006AFCB8 /* AppDelegate.m in Sources */,
 				CD74103D1F2AD54D006AFCB8 /* main.m in Sources */,
-				CDD9A0FB1F2ADF51006B1594 /* JsonModelCtrl.m in Sources */,
-				CDCD44151F2C6B8800209265 /* UIBezierPathCtrl.m in Sources */,
+				CD44E2DE1F32B489005BED59 /* AFNetworkCtrl.m in Sources */,
+				CD44E3041F32B518005BED59 /* CoreAnimationCtrl.m in Sources */,
+				CD44E2EC1F32B489005BED59 /* SwiftCtrl.m in Sources */,
 				CD0957881F32AA7E004CA5BD /* AAGuideViewController.m in Sources */,
-				CDD9A0EC1F2ADF16006B1594 /* RunLoopCtrl.m in Sources */,
-				CDD9A0E61F2ADEFE006B1594 /* BlockCtrl.m in Sources */,
-				CDD9A0EF1F2ADF21006B1594 /* CoreTextCtrl.m in Sources */,
 				CDD9A1471F2B383D006B1594 /* Bird.m in Sources */,
-				CDD9A1221F2ADFED006B1594 /* CoreNFCCtrl.m in Sources */,
-				CDD9A12B1F2AE00E006B1594 /* GCCCtrl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
