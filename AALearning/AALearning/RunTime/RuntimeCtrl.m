@@ -29,16 +29,7 @@
     self.navigationItem.title = @"Runtime(运行时)";
 
     NSArray *btnTitleArr = [NSArray arrayWithObjects:@"消息发送",@"字典转模型",@"模型转字典",@"动态方法解析", nil];
-    for (int i = 0;i < btnTitleArr.count;i++) {
-        NSString *title = btnTitleArr[i];
-        UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-        btn.frame = CGRectMake(60.0,50+70*i , ScreenWidth-120, 50.0);
-        [btn setBackgroundImage:[UIImage imageNamed:@"base_btn"] forState:UIControlStateNormal];
-        [btn setTitle:title forState:UIControlStateNormal];
-        [btn addTarget:self action:@selector(btnPressed:) forControlEvents:UIControlEventTouchUpInside];
-        btn.tag = i;
-        [self.view addSubview:btn];
-    }
+    [self addButtonsWithTitle:btnTitleArr];
 }
 
 - (void)btnPressed:(UIButton *)btn{

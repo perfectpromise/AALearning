@@ -20,16 +20,7 @@
     self.navigationItem.title = @"多线程";
 
     NSArray *btnTitleArr = [NSArray arrayWithObjects:@"GCD",@"pthread",@"NSThread",@"NSOperation",@"Block",@"RunLoop", nil];
-    for (int i = 0;i < btnTitleArr.count;i++) {
-        NSString *title = btnTitleArr[i];
-        UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-        btn.frame = CGRectMake(60.0,50+70*i , ScreenWidth-120, 50.0);
-        [btn setBackgroundImage:[UIImage imageNamed:@"base_btn"] forState:UIControlStateNormal];
-        [btn setTitle:title forState:UIControlStateNormal];
-        [btn addTarget:self action:@selector(btnPressed:) forControlEvents:UIControlEventTouchUpInside];
-        btn.tag = i;
-        [self.view addSubview:btn];
-    }
+    [self addButtonsWithTitle:btnTitleArr];
 
 }
 

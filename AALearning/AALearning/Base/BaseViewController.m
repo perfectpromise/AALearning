@@ -57,8 +57,22 @@
     //子类重写该方法
 }
 
-- (void)reloadBtnPressed{
-    //子类重写该方法,重新加载数据按钮
+- (void)addButtonsWithTitle:(NSArray *)titleArr{
+    for (int i = 0;i < titleArr.count;i++) {
+        NSString *title = titleArr[i];
+        UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+        btn.frame = CGRectMake(60.0,50+70*i , ScreenWidth-120, 50.0);
+        [btn setBackgroundImage:[UIImage imageNamed:@"base_btn"] forState:UIControlStateNormal];
+        [btn setTitle:title forState:UIControlStateNormal];
+        [btn addTarget:self action:@selector(btnPressed:) forControlEvents:UIControlEventTouchUpInside];
+        btn.tag = i;
+        [self.view addSubview:btn];
+    }
+
+}
+
+- (void)btnPressed:(UIButton *)btn{
+    //子类重写该方法
 }
 
 - (void)didReceiveMemoryWarning {

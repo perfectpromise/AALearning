@@ -14,4 +14,6 @@
 
 @interface BaseViewController : UIViewController
 
+- (void)addButtonsWithTitle:(NSArray *)titleArr;
+
 @end
