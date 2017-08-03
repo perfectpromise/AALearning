@@ -12,6 +12,7 @@
 
 @implementation UIViewController (Swizzle)
 
+/*最好不要去做这种事，测试中发现，滑动返回页面出现白屏，点击事件还能正常响应，所有视图看不到了*/
 + (void)load{ //父类->子类->类别
     [super load];
     

@@ -1,10 +1,7 @@
-//
-//  RunLoopCtrl.h
-//  AALearning
-//
-//  Created by LWF on 17/7/28.
-//
-//
+/*
+ http://www.jianshu.com/p/d260d18dd551
+
+ */
 
 #import "BaseViewController.h"
 

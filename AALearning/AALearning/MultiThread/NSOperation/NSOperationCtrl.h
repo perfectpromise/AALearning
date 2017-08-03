@@ -1,10 +1,7 @@
-//
-//  NSOperationCtrl.h
-//  AALearning
-//
-//  Created by LWF on 2017/8/3.
-//
-//
+/*
+ http://www.jianshu.com/p/4b1d77054b35
+
+ */
 
 #import "BaseViewController.h"
 

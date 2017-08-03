@@ -49,6 +49,7 @@
 		CD44E3291F32C015005BED59 /* PThreadCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E3281F32C015005BED59 /* PThreadCtrl.m */; };
 		CD44E32C1F32C021005BED59 /* NSThreadCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E32B1F32C021005BED59 /* NSThreadCtrl.m */; };
 		CD44E3301F32C07D005BED59 /* NSOperationCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E32F1F32C07D005BED59 /* NSOperationCtrl.m */; };
+		CD44E3331F32FA96005BED59 /* TestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E3321F32FA96005BED59 /* TestOperation.m */; };
 		CD74103D1F2AD54D006AFCB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74103C1F2AD54D006AFCB8 /* main.m */; };
 		CD7410401F2AD54D006AFCB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74103F1F2AD54D006AFCB8 /* AppDelegate.m */; };
 		CD7410481F2AD54D006AFCB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7410471F2AD54D006AFCB8 /* Assets.xcassets */; };
@@ -148,6 +149,8 @@
 		CD44E32B1F32C021005BED59 /* NSThreadCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSThreadCtrl.m; sourceTree = "<group>"; };
 		CD44E32E1F32C07D005BED59 /* NSOperationCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOperationCtrl.h; sourceTree = "<group>"; };
 		CD44E32F1F32C07D005BED59 /* NSOperationCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOperationCtrl.m; sourceTree = "<group>"; };
+		CD44E3311F32FA96005BED59 /* TestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestOperation.h; sourceTree = "<group>"; };
+		CD44E3321F32FA96005BED59 /* TestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestOperation.m; sourceTree = "<group>"; };
 		CD7410381F2AD54D006AFCB8 /* AALearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AALearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD74103C1F2AD54D006AFCB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD74103E1F2AD54D006AFCB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -553,6 +556,8 @@
 			children = (
 				CD44E32E1F32C07D005BED59 /* NSOperationCtrl.h */,
 				CD44E32F1F32C07D005BED59 /* NSOperationCtrl.m */,
+				CD44E3311F32FA96005BED59 /* TestOperation.h */,
+				CD44E3321F32FA96005BED59 /* TestOperation.m */,
 			);
 			path = NSOperation;
 			sourceTree = "<group>";
@@ -610,8 +615,8 @@
 				CD44E3251F32BFDB005BED59 /* pthread */,
 				CD44E3261F32BFF6005BED59 /* NSThread */,
 				CD44E32D1F32C072005BED59 /* NSOperation */,
-				CD44E30C1F32B5E8005BED59 /* Block */,
 				CD44E3121F32B5E8005BED59 /* RunLoop */,
+				CD44E30C1F32B5E8005BED59 /* Block */,
 			);
 			path = MultiThread;
 			sourceTree = "<group>";
@@ -821,6 +826,7 @@
 				CD44E3071F32B518005BED59 /* UIBezierPathCtrl.m in Sources */,
 				CD44E2E81F32B489005BED59 /* MVVMCtrl.m in Sources */,
 				CD44E2E41F32B489005BED59 /* InstrumentCtrl.m in Sources */,
+				CD44E3331F32FA96005BED59 /* TestOperation.m in Sources */,
 				CDD9A1461F2B383D006B1594 /* Monkey.m in Sources */,
 				CD44E2381F32B11C005BED59 /* NSObject+Property.m in Sources */,
 				CD44E3241F32B817005BED59 /* CoreBluetoothCtrl.m in Sources */,
