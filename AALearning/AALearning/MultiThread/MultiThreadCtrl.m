@@ -19,9 +19,8 @@
     // Do any additional setup after loading the view.
     self.navigationItem.title = @"多线程";
 
-    NSArray *btnTitleArr = [NSArray arrayWithObjects:@"GCD",@"pthread",@"NSThread",@"NSOperation",@"RunLoop",@"Block", nil];
+    NSArray *btnTitleArr = [NSArray arrayWithObjects:@"GCD",@"pthread",@"NSThread",@"NSOperation",@"RunLoop", nil];
     [self addButtonsWithTitle:btnTitleArr];
-
 }
 
 - (void)btnPressed:(UIButton *)btn{
@@ -30,8 +29,7 @@
                               @"PThreadCtrl",
                               @"NSThreadCtrl",
                               @"NSOperationCtrl",
-                              @"RunLoopCtrl",
-                              @"BlockCtrl",nil];
+                              @"RunLoopCtrl",nil];
     
     BaseViewController *viewCtrl = [NSClassFromString(controllerArr[btn.tag]) new];
     viewCtrl.hidesBottomBarWhenPushed = YES;

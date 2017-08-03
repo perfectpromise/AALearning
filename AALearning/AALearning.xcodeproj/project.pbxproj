@@ -40,7 +40,6 @@
 		CD44E3071F32B518005BED59 /* UIBezierPathCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E2FF1F32B518005BED59 /* UIBezierPathCtrl.m */; };
 		CD44E3081F32B518005BED59 /* VideoCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E3021F32B518005BED59 /* VideoCtrl.m */; };
 		CD44E30B1F32B529005BED59 /* CoreProgrammeCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E30A1F32B529005BED59 /* CoreProgrammeCtrl.m */; };
-		CD44E3151F32B5E8005BED59 /* BlockCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E30E1F32B5E8005BED59 /* BlockCtrl.m */; };
 		CD44E3161F32B5E8005BED59 /* GCDCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E3111F32B5E8005BED59 /* GCDCtrl.m */; };
 		CD44E3171F32B5E8005BED59 /* RunLoopCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E3141F32B5E8005BED59 /* RunLoopCtrl.m */; };
 		CD44E31A1F32B695005BED59 /* OtherCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44E3191F32B695005BED59 /* OtherCtrl.m */; };
@@ -131,8 +130,6 @@
 		CD44E3021F32B518005BED59 /* VideoCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCtrl.m; sourceTree = "<group>"; };
 		CD44E3091F32B529005BED59 /* CoreProgrammeCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreProgrammeCtrl.h; sourceTree = "<group>"; };
 		CD44E30A1F32B529005BED59 /* CoreProgrammeCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreProgrammeCtrl.m; sourceTree = "<group>"; };
-		CD44E30D1F32B5E8005BED59 /* BlockCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockCtrl.h; sourceTree = "<group>"; };
-		CD44E30E1F32B5E8005BED59 /* BlockCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockCtrl.m; sourceTree = "<group>"; };
 		CD44E3101F32B5E8005BED59 /* GCDCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDCtrl.h; sourceTree = "<group>"; };
 		CD44E3111F32B5E8005BED59 /* GCDCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDCtrl.m; sourceTree = "<group>"; };
 		CD44E3131F32B5E8005BED59 /* RunLoopCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunLoopCtrl.h; sourceTree = "<group>"; };
@@ -497,15 +494,6 @@
 			path = Video;
 			sourceTree = "<group>";
 		};
-		CD44E30C1F32B5E8005BED59 /* Block */ = {
-			isa = PBXGroup;
-			children = (
-				CD44E30D1F32B5E8005BED59 /* BlockCtrl.h */,
-				CD44E30E1F32B5E8005BED59 /* BlockCtrl.m */,
-			);
-			path = Block;
-			sourceTree = "<group>";
-		};
 		CD44E30F1F32B5E8005BED59 /* GCD */ = {
 			isa = PBXGroup;
 			children = (
@@ -616,7 +604,6 @@
 				CD44E3261F32BFF6005BED59 /* NSThread */,
 				CD44E32D1F32C072005BED59 /* NSOperation */,
 				CD44E3121F32B5E8005BED59 /* RunLoop */,
-				CD44E30C1F32B5E8005BED59 /* Block */,
 			);
 			path = MultiThread;
 			sourceTree = "<group>";
@@ -821,7 +808,6 @@
 				CDD9A0E91F2ADF0A006B1594 /* MultiThreadCtrl.m in Sources */,
 				CD44E31A1F32B695005BED59 /* OtherCtrl.m in Sources */,
 				CD44E2ED1F32B489005BED59 /* UMLCtrl.m in Sources */,
-				CD44E3151F32B5E8005BED59 /* BlockCtrl.m in Sources */,
 				CD44E2E91F32B489005BED59 /* RegularExpressionCtrl.m in Sources */,
 				CD44E3071F32B518005BED59 /* UIBezierPathCtrl.m in Sources */,
 				CD44E2E81F32B489005BED59 /* MVVMCtrl.m in Sources */,
