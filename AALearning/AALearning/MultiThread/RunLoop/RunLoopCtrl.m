@@ -17,7 +17,37 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.navigationItem.title = @"运行循环";
+    NSArray *btnTitleArr = [NSArray arrayWithObjects:@"",@"",@"",
+                            @"",@"",@"",
+                            @"",@"",nil];
+    [self addButtonsWithTitle:btnTitleArr];
 }
+
+- (void)btnPressed:(UIButton *)btn{
+    
+    if (btn.tag == 0) {
+
+        
+    }else if (btn.tag == 1){
+
+        
+    }else if (btn.tag == 2){
+        
+        
+    }else if (btn.tag == 3){
+
+        
+    }else if (btn.tag == 4){
+        
+    }else if (btn.tag == 5){
+        
+    }else if (btn.tag == 6){
+        
+    }else if (btn.tag == 7){
+    }
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

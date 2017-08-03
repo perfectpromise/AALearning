@@ -19,7 +19,7 @@
     // Do any additional setup after loading the view.
     self.navigationItem.title = @"多线程";
 
-    NSArray *btnTitleArr = [NSArray arrayWithObjects:@"GCD",@"pthread",@"NSThread",@"NSOperation",@"Block",@"RunLoop", nil];
+    NSArray *btnTitleArr = [NSArray arrayWithObjects:@"GCD",@"pthread",@"NSThread",@"NSOperation",@"RunLoop",@"Block", nil];
     [self addButtonsWithTitle:btnTitleArr];
 
 }
