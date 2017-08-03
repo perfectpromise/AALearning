@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "AATabBarController.h"
+#import "AAGuideViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,14 +19,27 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
     
-//    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-//    ViewController *firstVC = [storyBoard instantiateViewControllerWithIdentifier:@"ViewController"];
-//    UINavigationController *naviController = [[UINavigationController alloc] initWithRootViewController:firstVC];
-//    self.window.rootViewController = naviController;
-//    self.window.backgroundColor = [UIColor whiteColor];
-//    [self.window makeKeyAndVisible];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor blackColor];
     
+    if (![[NSUserDefaults standardUserDefaults] boolForKey:@"FirstLaungh"])  //首次登陆进入引导页面
+    {
+        self.window.rootViewController = [AAGuideViewController new];
+    }else
+    {
+        AATabBarController *tarbar = [AATabBarController new];
+        self.window.rootViewController = tarbar;
+    }
+    
+    [self.window makeKeyAndVisible];
+
+    
+    //清除cookie信息，否则会提示登录失效
+    [[NSUserDefaults standardUserDefaults] setObject:@"" forKey:@"UserCookie"];
+    [[NSUserDefaults standardUserDefaults] setInteger:0 forKey:@"BorrowerID"];
+
     return YES;
 }
 

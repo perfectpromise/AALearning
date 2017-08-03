@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		A9E32E11F72CFBBC6266AAFD /* libPods-AALearning.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D106CFCD215D332161E804 /* libPods-AALearning.a */; };
+		CD0957831F32A899004CA5BD /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD09577E1F32A899004CA5BD /* BaseViewController.m */; };
+		CD0957841F32A899004CA5BD /* AANavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0957801F32A899004CA5BD /* AANavigationController.m */; };
+		CD0957851F32A899004CA5BD /* AATabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0957821F32A899004CA5BD /* AATabBarController.m */; };
+		CD0957881F32AA7E004CA5BD /* AAGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0957871F32AA7E004CA5BD /* AAGuideViewController.m */; };
 		CD74103D1F2AD54D006AFCB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74103C1F2AD54D006AFCB8 /* main.m */; };
 		CD7410401F2AD54D006AFCB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74103F1F2AD54D006AFCB8 /* AppDelegate.m */; };
-		CD7410431F2AD54D006AFCB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7410421F2AD54D006AFCB8 /* ViewController.m */; };
-		CD7410461F2AD54D006AFCB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7410441F2AD54D006AFCB8 /* Main.storyboard */; };
 		CD7410481F2AD54D006AFCB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7410471F2AD54D006AFCB8 /* Assets.xcassets */; };
 		CD74104B1F2AD54D006AFCB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7410491F2AD54D006AFCB8 /* LaunchScreen.storyboard */; };
 		CDCD44151F2C6B8800209265 /* UIBezierPathCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCD44141F2C6B8800209265 /* UIBezierPathCtrl.m */; };
@@ -60,13 +62,18 @@
 		0307362ADD7CF64563990E75 /* Pods-AALearning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AALearning.release.xcconfig"; path = "Pods/Target Support Files/Pods-AALearning/Pods-AALearning.release.xcconfig"; sourceTree = "<group>"; };
 		63D106CFCD215D332161E804 /* libPods-AALearning.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AALearning.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		799930292052BB9DB157D2E3 /* Pods-AALearning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AALearning.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AALearning/Pods-AALearning.debug.xcconfig"; sourceTree = "<group>"; };
+		CD09577D1F32A899004CA5BD /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		CD09577E1F32A899004CA5BD /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		CD09577F1F32A899004CA5BD /* AANavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AANavigationController.h; sourceTree = "<group>"; };
+		CD0957801F32A899004CA5BD /* AANavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AANavigationController.m; sourceTree = "<group>"; };
+		CD0957811F32A899004CA5BD /* AATabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AATabBarController.h; sourceTree = "<group>"; };
+		CD0957821F32A899004CA5BD /* AATabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AATabBarController.m; sourceTree = "<group>"; };
+		CD0957861F32AA7E004CA5BD /* AAGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAGuideViewController.h; sourceTree = "<group>"; };
+		CD0957871F32AA7E004CA5BD /* AAGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAGuideViewController.m; sourceTree = "<group>"; };
 		CD7410381F2AD54D006AFCB8 /* AALearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AALearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD74103C1F2AD54D006AFCB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD74103E1F2AD54D006AFCB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD74103F1F2AD54D006AFCB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CD7410411F2AD54D006AFCB8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CD7410421F2AD54D006AFCB8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CD7410451F2AD54D006AFCB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD7410471F2AD54D006AFCB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD74104A1F2AD54D006AFCB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD74104C1F2AD54D006AFCB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -172,6 +179,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CD09577C1F32A888004CA5BD /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CD09577D1F32A899004CA5BD /* BaseViewController.h */,
+				CD09577E1F32A899004CA5BD /* BaseViewController.m */,
+				CD09577F1F32A899004CA5BD /* AANavigationController.h */,
+				CD0957801F32A899004CA5BD /* AANavigationController.m */,
+				CD0957811F32A899004CA5BD /* AATabBarController.h */,
+				CD0957821F32A899004CA5BD /* AATabBarController.m */,
+				CD0957861F32AA7E004CA5BD /* AAGuideViewController.h */,
+				CD0957871F32AA7E004CA5BD /* AAGuideViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		CD74102F1F2AD54D006AFCB8 = {
 			isa = PBXGroup;
 			children = (
@@ -195,8 +217,7 @@
 			children = (
 				CD74103E1F2AD54D006AFCB8 /* AppDelegate.h */,
 				CD74103F1F2AD54D006AFCB8 /* AppDelegate.m */,
-				CD7410411F2AD54D006AFCB8 /* ViewController.h */,
-				CD7410421F2AD54D006AFCB8 /* ViewController.m */,
+				CD09577C1F32A888004CA5BD /* Base */,
 				CDD9A0B41F2ADBF3006B1594 /* MethodSwizzling */,
 				CDD9A0C01F2ADBF3006B1594 /* ResponderChain */,
 				CDD9A0C61F2ADBF3006B1594 /* RunTime */,
@@ -229,7 +250,6 @@
 				CDD9A0AC1F2ADBF3006B1594 /* FishHook */,
 				CDD9A0AD1F2ADBF3006B1594 /* GCC */,
 				CD7410471F2AD54D006AFCB8 /* Assets.xcassets */,
-				CD7410441F2AD54D006AFCB8 /* Main.storyboard */,
 				CD7410491F2AD54D006AFCB8 /* LaunchScreen.storyboard */,
 				CD74104C1F2AD54D006AFCB8 /* Info.plist */,
 				CD74103B1F2AD54D006AFCB8 /* Supporting Files */,
@@ -655,7 +675,6 @@
 			files = (
 				CD74104B1F2AD54D006AFCB8 /* LaunchScreen.storyboard in Resources */,
 				CD7410481F2AD54D006AFCB8 /* Assets.xcassets in Resources */,
-				CD7410461F2AD54D006AFCB8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -727,7 +746,9 @@
 				CDD9A1461F2B383D006B1594 /* Monkey.m in Sources */,
 				CDD9A1131F2ADFB0006B1594 /* SwiftCtrl.m in Sources */,
 				CDD9A0F51F2ADF39006B1594 /* Quartz2DCtrl.m in Sources */,
+				CD0957831F32A899004CA5BD /* BaseViewController.m in Sources */,
 				CDD9A1011F2ADF6A006B1594 /* SDWebImageCtrl.m in Sources */,
+				CD0957841F32A899004CA5BD /* AANavigationController.m in Sources */,
 				CDD9A0F21F2ADF2C006B1594 /* CoreAnimationCtrl.m in Sources */,
 				CDD9A0D41F2ADBF3006B1594 /* ResponderChainCtrl.m in Sources */,
 				CDD9A0E01F2ADEAA006B1594 /* RegularExpressionCtrl.m in Sources */,
@@ -738,7 +759,7 @@
 				CDD9A10D1F2ADF99006B1594 /* UMLCtrl.m in Sources */,
 				CDD9A1071F2ADF82006B1594 /* InstrumentCtrl.m in Sources */,
 				CDD9A10A1F2ADF8E006B1594 /* MVVMCtrl.m in Sources */,
-				CD7410431F2AD54D006AFCB8 /* ViewController.m in Sources */,
+				CD0957851F32A899004CA5BD /* AATabBarController.m in Sources */,
 				CDD9A1101F2ADFA5006B1594 /* HTMLCtrl.m in Sources */,
 				CDD9A1191F2ADFC8006B1594 /* VideoCtrl.m in Sources */,
 				CDD9A0D31F2ADBF3006B1594 /* UIViewController+Swizzle.m in Sources */,
@@ -749,6 +770,7 @@
 				CD74103D1F2AD54D006AFCB8 /* main.m in Sources */,
 				CDD9A0FB1F2ADF51006B1594 /* JsonModelCtrl.m in Sources */,
 				CDCD44151F2C6B8800209265 /* UIBezierPathCtrl.m in Sources */,
+				CD0957881F32AA7E004CA5BD /* AAGuideViewController.m in Sources */,
 				CDD9A0EC1F2ADF16006B1594 /* RunLoopCtrl.m in Sources */,
 				CDD9A0D11F2ADBF3006B1594 /* MethodSwizzlingCtrl.m in Sources */,
 				CDD9A0E61F2ADEFE006B1594 /* BlockCtrl.m in Sources */,
@@ -763,14 +785,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CD7410441F2AD54D006AFCB8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CD7410451F2AD54D006AFCB8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CD7410491F2AD54D006AFCB8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

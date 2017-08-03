@@ -24,6 +24,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 
+    self.navigationItem.title = @"Runtime(运行时)";
     /*消息发送：[self sendMsg:@"test"]*/
     TestMsgSend *msgSend = [TestMsgSend new];
     ((void (*) (id, SEL))objc_msgSend)(msgSend, sel_registerName("showAge"));
