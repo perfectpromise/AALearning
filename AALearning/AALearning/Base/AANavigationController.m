@@ -11,7 +11,6 @@
 #define BACK_BTN_FRAME CGRectMake(0.0f, 18.0f, 45.0f, 25.0f)        //导航栏返回按钮尺寸
 
 @interface AANavigationController ()
-
 @end
 
 @implementation AANavigationController
@@ -28,6 +27,8 @@
         NSDictionary * dict=[NSDictionary dictionaryWithObject:color forKey:NSForegroundColorAttributeName];
         self.navigationBar.titleTextAttributes = dict;
         self.navigationBar.translucent = NO;
+        self.interactivePopGestureRecognizer.enabled = NO;//根视图禁止滑动，否则容易造成卡死
+        /*POP到根视图，仍然需要禁止，在delegate中实现*/
     }
     
     return self;
@@ -82,7 +83,6 @@
         }
     }
 }
-
 
 @end
 

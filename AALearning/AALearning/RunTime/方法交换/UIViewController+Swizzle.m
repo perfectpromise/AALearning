@@ -17,7 +17,7 @@
     
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        [self swizzleInstanceMethod:@selector(viewDidLoad) withMethod:@selector(bw_viewDidLoad)];
+//        [self swizzleInstanceMethod:@selector(viewDidLoad) withMethod:@selector(bw_viewDidLoad)];
     });
 
 }

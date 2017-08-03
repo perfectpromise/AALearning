@@ -6,8 +6,8 @@
 //
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface RunLoopCtrl : UIViewController
+@interface RunLoopCtrl : BaseViewController
 
 @end

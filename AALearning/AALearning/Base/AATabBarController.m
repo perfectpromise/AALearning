@@ -10,35 +10,11 @@
 #import "BaseViewController.h"
 #import "AANavigationController.h"
 
-@interface AATabBarController ()<UIGestureRecognizerDelegate>
+@interface AATabBarController ()<UIGestureRecognizerDelegate,UINavigationControllerDelegate>
 
 @end
 
 @implementation AATabBarController
-
-- (void)viewWillAppear:(BOOL)animated{
-    
-    [super viewWillAppear:animated];
-    
-    //开启iOS7的滑动返回效果
-    if ([self.navigationController respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
-        self.navigationController.interactivePopGestureRecognizer.delegate = self;
-    }
-    
-    [self.selectedViewController viewWillAppear:animated];
-}
-
-- (void)viewWillDisappear:(BOOL)animated
-{
-    [super viewWillDisappear:animated];
-    
-    //开启iOS7的滑动返回效果
-    if ([self.navigationController respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
-        self.navigationController.interactivePopGestureRecognizer.delegate = nil;
-    }
-    [self.selectedViewController viewWillDisappear:animated];
-}
-
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -62,7 +38,7 @@
         navCtrl.tabBarItem.title = titleArr[i];
         navCtrl.tabBarItem.image = [UIImage imageNamed:imgNormalArr[i]];
         navCtrl.tabBarItem.selectedImage = [[UIImage imageNamed:imgSelectedArr[i]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-
+        navCtrl.delegate = self;
         
         [tabbarArr addObject:navCtrl];
     }
@@ -97,6 +73,15 @@
 - (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation{
     
     return UIInterfaceOrientationPortrait;
+}
+
+/*解决根视图滑动导致卡顿问题*/
+- (void)navigationController:(UINavigationController *)navigationController didShowViewController:(UIViewController *)viewController animated:(BOOL)animated{
+    
+    if (navigationController.viewControllers.count <= 1) {
+        navigationController.interactivePopGestureRecognizer.enabled = NO;
+    }
+    
 }
 
 @end

@@ -17,7 +17,7 @@
 - (void)viewDidDisappear:(BOOL)animated {
     
     [super viewDidDisappear:animated];
-    //[SVProgressHUD dismiss];
+
 }
 
 - (void)viewDidLoad {
@@ -26,10 +26,12 @@
     self.automaticallyAdjustsScrollViewInsets = NO;
     self.view.backgroundColor = RGBACOLOR(245, 245, 245, 1.0);
     self.view.userInteractionEnabled = YES;
+    
 }
 
 - (void)viewWillDisappear:(BOOL)animated{
     
+    [super viewWillDisappear:animated];
     [self.view endEditing:YES];
 }
 

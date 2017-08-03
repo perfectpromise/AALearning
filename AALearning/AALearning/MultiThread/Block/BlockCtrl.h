@@ -6,8 +6,8 @@
 //
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface BlockCtrl : UIViewController
+@interface BlockCtrl : BaseViewController
 
 @end
