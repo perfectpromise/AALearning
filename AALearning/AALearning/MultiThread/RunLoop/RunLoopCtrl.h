@@ -18,11 +18,15 @@
  
  CFRunLoopTimerRef是定时源（RunLoop模型图中提到过），理解为基于时间的触发器，基本上就是NSTimer
  
- 
+ 实际应用：
+ A：ImageView推迟显示：设置模式为默认，滚动时不会被调用，滚动结束才调用[self.imageView performSelector:@selector(setImage:) withObject:[UIImage imageNamed:@"tupian"] afterDelay:4.0 inModes:NSDefaultRunLoopMode];
+ B：后台常驻线程
+
  */
 
 #import "BaseViewController.h"
 
 @interface RunLoopCtrl : BaseViewController
 
+@property(nonatomic,strong) NSThread *thread;
 @end
