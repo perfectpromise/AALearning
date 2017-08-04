@@ -21,12 +21,14 @@
     // Do any additional setup after loading the view from its nib.
     
     //TarBar初始化,数据初始化
-    NSArray *titleArr = [NSArray arrayWithObjects:@"Runtime",@"多线程",@"核心编程", nil];
+    NSArray *titleArr = [NSArray arrayWithObjects:@"Runtime",@"多线程",@"核心编程",@"Json性能",@"更多", nil];
     NSArray *controllerArr = [NSArray arrayWithObjects:@"RuntimeCtrl",
                               @"MultiThreadCtrl",
-                              @"CoreProgrammeCtrl", nil];
-    NSArray *imgNormalArr = [NSArray arrayWithObjects:@"tabbar_home",@"tabbar_recommend",@"tabbar_mine", nil];
-    NSArray *imgSelectedArr = [NSArray arrayWithObjects:@"tabbar_home_s",@"tabbar_recommend_s",@"tabbar_mine_s", nil];
+                              @"CoreProgrammeCtrl",
+                              @"JsonEvaluateCtrl",
+                              @"OtherCtrl",nil];
+    NSArray *imgNormalArr = [NSArray arrayWithObjects:@"tabbar_home",@"tabbar_recommend",@"tabbar_mine",@"tabbar_json",@"tabbar_other", nil];
+    NSArray *imgSelectedArr = [NSArray arrayWithObjects:@"tabbar_home_s",@"tabbar_recommend_s",@"tabbar_mine_s",@"tabbar_json_s",@"tabbar_other_s", nil];
 
     //控制器初始化
     NSMutableArray *tabbarArr = [NSMutableArray array];
