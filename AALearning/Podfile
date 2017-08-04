@@ -1,9 +1,11 @@
 platform :ios, ‘8.0’ 
 target ‘AALearning’ do
-pod 'AFNetworking'
-pod 'JSONModel'
-pod 'SDWebImage'
-pod 'MJRefresh'
-pod 'SVProgressHUD'
-pod 'DWTagList'
+#Manually手动进行 JSON/Model 转换，不用任何开源库，可以进行高效、自由的转换，但手写代码非常繁琐，而且容易出错。
+pod 'JSONModel'         #一个 JSON 模型转换库，有着比较简洁的接口。Model 需要继承自 JSONModel。
+pod 'YYModel'           #
+pod 'FastEasyMapping'   #Yalantis 开发的一个 JSON 模型转换库，可以自定义详细的 Model 映射过程，支持 CoreData。使用者较少。
+pod 'Mantle'            #Github 官方团队开发的 JSON 模型转换库，Model 需要继承自 MTLModel。功能丰富，文档完善，使用广泛。
+pod 'MJExtension'       #国内开发者"小码哥"开发的 JSON 模型库，号称性能超过 JSONModel 和 Mantle，使用简单无侵入。国内有大量使用者。
 end
+
+#Json性能评测：http://blog.ibireme.com/2015/10/23/ios_model_framework_benchmark/#more-41804
