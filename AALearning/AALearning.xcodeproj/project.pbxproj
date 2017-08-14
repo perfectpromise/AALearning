@@ -53,9 +53,11 @@
 		CD7410401F2AD54D006AFCB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74103F1F2AD54D006AFCB8 /* AppDelegate.m */; };
 		CD7410481F2AD54D006AFCB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7410471F2AD54D006AFCB8 /* Assets.xcassets */; };
 		CD74104B1F2AD54D006AFCB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7410491F2AD54D006AFCB8 /* LaunchScreen.storyboard */; };
+		CDB8B6521F41976F00F0CE39 /* JSPatchCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB8B6511F41976F00F0CE39 /* JSPatchCtrl.m */; };
+		CDB8B6571F419E3B00F0CE39 /* NNValidationView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB8B6561F419E3B00F0CE39 /* NNValidationView.m */; };
 		CDD9A0D71F2ADBF3006B1594 /* RuntimeCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A0CB1F2ADBF3006B1594 /* RuntimeCtrl.m */; };
 		CDD9A0E91F2ADF0A006B1594 /* MultiThreadCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A0E81F2ADF0A006B1594 /* MultiThreadCtrl.m */; };
-		CDD9A1371F2B336E006B1594 /* NSObject+JsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A1341F2B336E006B1594 /* NSObject+JsonModel.m */; };
+		CDD9A1371F2B336E006B1594 /* NSObject+AAModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A1341F2B336E006B1594 /* NSObject+AAModel.m */; };
 		CDD9A13E1F2B342F006B1594 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A13D1F2B342F006B1594 /* TestModel.m */; };
 		CDD9A1411F2B3453006B1594 /* TestMsgSend.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A1401F2B3453006B1594 /* TestMsgSend.m */; };
 		CDD9A1461F2B383D006B1594 /* Monkey.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9A1431F2B383D006B1594 /* Monkey.m */; };
@@ -160,12 +162,16 @@
 		CD7410471F2AD54D006AFCB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD74104A1F2AD54D006AFCB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD74104C1F2AD54D006AFCB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDB8B6501F41976F00F0CE39 /* JSPatchCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPatchCtrl.h; sourceTree = "<group>"; };
+		CDB8B6511F41976F00F0CE39 /* JSPatchCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPatchCtrl.m; sourceTree = "<group>"; };
+		CDB8B6551F419E3B00F0CE39 /* NNValidationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNValidationView.h; sourceTree = "<group>"; };
+		CDB8B6561F419E3B00F0CE39 /* NNValidationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNValidationView.m; sourceTree = "<group>"; };
 		CDD9A0CA1F2ADBF3006B1594 /* RuntimeCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeCtrl.h; sourceTree = "<group>"; };
 		CDD9A0CB1F2ADBF3006B1594 /* RuntimeCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeCtrl.m; sourceTree = "<group>"; };
 		CDD9A0E71F2ADF0A006B1594 /* MultiThreadCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiThreadCtrl.h; sourceTree = "<group>"; };
 		CDD9A0E81F2ADF0A006B1594 /* MultiThreadCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiThreadCtrl.m; sourceTree = "<group>"; };
-		CDD9A1331F2B336E006B1594 /* NSObject+JsonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JsonModel.h"; sourceTree = "<group>"; };
-		CDD9A1341F2B336E006B1594 /* NSObject+JsonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JsonModel.m"; sourceTree = "<group>"; };
+		CDD9A1331F2B336E006B1594 /* NSObject+AAModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AAModel.h"; sourceTree = "<group>"; };
+		CDD9A1341F2B336E006B1594 /* NSObject+AAModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AAModel.m"; sourceTree = "<group>"; };
 		CDD9A13C1F2B342F006B1594 /* TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
 		CDD9A13D1F2B342F006B1594 /* TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
 		CDD9A13F1F2B3453006B1594 /* TestMsgSend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestMsgSend.h; sourceTree = "<group>"; };
@@ -255,6 +261,7 @@
 			children = (
 				CD44E3181F32B695005BED59 /* OtherCtrl.h */,
 				CD44E3191F32B695005BED59 /* OtherCtrl.m */,
+				CDB8B64F1F41975D00F0CE39 /* JSPatch */,
 				CD44E2C61F32B489005BED59 /* KVO */,
 				CD44E2CF1F32B489005BED59 /* RegularExpression */,
 				CD44E2C31F32B489005BED59 /* JsonModel */,
@@ -584,6 +591,7 @@
 				CDFFE1BA1F341D1C00389B2A /* JsonEvaluate */,
 				CD44E2EE1F32B4BD005BED59 /* CoreProgramme */,
 				CD44E2AD1F32B489005BED59 /* Other */,
+				CDB8B6531F419E1F00F0CE39 /* Third */,
 				CD7410471F2AD54D006AFCB8 /* Assets.xcassets */,
 				CD7410491F2AD54D006AFCB8 /* LaunchScreen.storyboard */,
 				CD74104C1F2AD54D006AFCB8 /* Info.plist */,
@@ -598,6 +606,32 @@
 				CD74103C1F2AD54D006AFCB8 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDB8B64F1F41975D00F0CE39 /* JSPatch */ = {
+			isa = PBXGroup;
+			children = (
+				CDB8B6501F41976F00F0CE39 /* JSPatchCtrl.h */,
+				CDB8B6511F41976F00F0CE39 /* JSPatchCtrl.m */,
+			);
+			path = JSPatch;
+			sourceTree = "<group>";
+		};
+		CDB8B6531F419E1F00F0CE39 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				CDB8B6541F419E2D00F0CE39 /* 随机图片验证码 */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		CDB8B6541F419E2D00F0CE39 /* 随机图片验证码 */ = {
+			isa = PBXGroup;
+			children = (
+				CDB8B6551F419E3B00F0CE39 /* NNValidationView.h */,
+				CDB8B6561F419E3B00F0CE39 /* NNValidationView.m */,
+			);
+			path = "随机图片验证码";
 			sourceTree = "<group>";
 		};
 		CDD9A0BC1F2ADBF3006B1594 /* MultiThread */ = {
@@ -633,8 +667,8 @@
 		CDD9A1321F2B335A006B1594 /* 字典与模型互转（自动归档） */ = {
 			isa = PBXGroup;
 			children = (
-				CDD9A1331F2B336E006B1594 /* NSObject+JsonModel.h */,
-				CDD9A1341F2B336E006B1594 /* NSObject+JsonModel.m */,
+				CDD9A1331F2B336E006B1594 /* NSObject+AAModel.h */,
+				CDD9A1341F2B336E006B1594 /* NSObject+AAModel.m */,
 			);
 			name = "字典与模型互转（自动归档）";
 			path = "字典与模型互转";
@@ -832,6 +866,7 @@
 				CDD9A0E91F2ADF0A006B1594 /* MultiThreadCtrl.m in Sources */,
 				CD44E31A1F32B695005BED59 /* OtherCtrl.m in Sources */,
 				CD44E2ED1F32B489005BED59 /* UMLCtrl.m in Sources */,
+				CDB8B6571F419E3B00F0CE39 /* NNValidationView.m in Sources */,
 				CD44E2E91F32B489005BED59 /* RegularExpressionCtrl.m in Sources */,
 				CD44E3071F32B518005BED59 /* UIBezierPathCtrl.m in Sources */,
 				CD44E2E81F32B489005BED59 /* MVVMCtrl.m in Sources */,
@@ -848,7 +883,7 @@
 				CD44E3061F32B518005BED59 /* Quartz2DCtrl.m in Sources */,
 				CDD9A1411F2B3453006B1594 /* TestMsgSend.m in Sources */,
 				CD44E2EA1F32B489005BED59 /* SDWebImageCtrl.m in Sources */,
-				CDD9A1371F2B336E006B1594 /* NSObject+JsonModel.m in Sources */,
+				CDD9A1371F2B336E006B1594 /* NSObject+AAModel.m in Sources */,
 				CD44E3201F32B7FB005BED59 /* CoreNFCCtrl.m in Sources */,
 				CDFFE1C41F3424D600389B2A /* GitHubUser.m in Sources */,
 				CD44E2E01F32B489005BED59 /* ClassDumpCtrl.m in Sources */,
@@ -862,6 +897,7 @@
 				CD44E2341F32B0F3005BED59 /* UIView+Responder.m in Sources */,
 				CD44E3301F32C07D005BED59 /* NSOperationCtrl.m in Sources */,
 				CD44E3081F32B518005BED59 /* VideoCtrl.m in Sources */,
+				CDB8B6521F41976F00F0CE39 /* JSPatchCtrl.m in Sources */,
 				CD7410401F2AD54D006AFCB8 /* AppDelegate.m in Sources */,
 				CD74103D1F2AD54D006AFCB8 /* main.m in Sources */,
 				CD44E2DE1F32B489005BED59 /* AFNetworkCtrl.m in Sources */,

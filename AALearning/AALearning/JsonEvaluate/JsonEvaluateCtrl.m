@@ -8,6 +8,7 @@
 
 #import "JsonEvaluateCtrl.h"
 #import "GitHubUser.h"
+#import "NSObject+AAModel.h"
 
 @interface JsonEvaluateCtrl ()
 
@@ -27,10 +28,20 @@
 - (void)btnPressed:(UIButton *)btn{
     
     if (btn.tag == 0) {
-        /*延时1秒开启测试*/
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        /*延时1秒开启测试，使用GCD，防止页面卡住*/
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             [self testUserJson];
         });
+        
+//        NSString *userPath = [[NSBundle mainBundle] pathForResource:@"user" ofType:@"json"];
+//        NSData *userData = [NSData dataWithContentsOfFile:userPath];
+//        NSDictionary *userJson = [NSJSONSerialization JSONObjectWithData:userData options:0 error:nil];
+        
+//        [AAUser aa_modelWithDictionary:userJson];
+//        [YYGHUser yy_modelWithDictionary:userJson];
+        
+//        NSDictionary *json = [[AAUser aa_modelWithDictionary:userJson] dictionaryWithModel];
+//        NSLog(@"%@",json);
     }
 }
 
@@ -48,7 +59,7 @@
 //    NSDictionary *weiboJson = [NSJSONSerialization JSONObjectWithData:weiboData options:0 error:nil];
     
     /// Benchmark
-    int count = 10000;
+    int count = 1000;
     NSTimeInterval begin, end;
 
     /// warm up (NSDictionary's hot cache, and JSON to model framework cache)
@@ -81,6 +92,53 @@
         [holder addObject:[NSDate new]];
     }
     [holder removeAllObjects];
+    
+    /*------------------- AAModel -------------------*/
+    {
+        [holder removeAllObjects];
+        begin = CACurrentMediaTime();
+        @autoreleasepool {
+            for (int i = 0; i < count; i++) {
+                AAUser *user = [AAUser aa_modelWithDictionary:userJson];
+                [holder addObject:user];
+            }
+        }
+        end = CACurrentMediaTime();
+        printf("AAModel:        %8.2f   ", (end - begin) * 1000);
+        
+        
+        AAUser *user = [AAUser aa_modelWithDictionary:userJson];
+        if (user.userID == 0) NSLog(@"error!");
+        if (!user.login) NSLog(@"error!");
+        if (!user.htmlURL) NSLog(@"error");
+        
+        [holder removeAllObjects];
+        begin = CACurrentMediaTime();
+        @autoreleasepool {
+            for (int i = 0; i < count; i++) {
+                NSDictionary *json = [user dictionaryWithModel];
+                [holder addObject:json];
+            }
+        }
+        end = CACurrentMediaTime();
+        if ([NSJSONSerialization isValidJSONObject:[user dictionaryWithModel]]) {
+            printf("%8.2f   ", (end - begin) * 1000);
+        } else {
+            printf("   error   ");
+        }
+        
+        
+        [holder removeAllObjects];
+        begin = CACurrentMediaTime();
+        @autoreleasepool {
+            for (int i = 0; i < count; i++) {
+                NSData *data = [NSKeyedArchiver archivedDataWithRootObject:user];
+                [holder addObject:data];
+            }
+        }
+        end = CACurrentMediaTime();
+        printf("%8.2f\n", (end - begin) * 1000);
+    }
     
     /*------------------- Manually -------------------*/
     {

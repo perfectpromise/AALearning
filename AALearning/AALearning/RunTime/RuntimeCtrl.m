@@ -9,15 +9,17 @@
 #import "RuntimeCtrl.h"
 #import <objc/runtime.h>
 #import <objc/message.h>
-#import "NSObject+JsonModel.h"
+#import "NSObject+AAModel.h"
 #import "TestModel.h"
 #import "TestMsgSend.h"
 #import "Monkey.h"
+#import "NNValidationView.h"
 
 @interface RuntimeCtrl ()
 {
     TestModel *_model;
 }
+@property (nonatomic, strong) NNValidationView *testView;
 @end
 
 @implementation RuntimeCtrl
@@ -30,6 +32,20 @@
 
     NSArray *btnTitleArr = [NSArray arrayWithObjects:@"消息发送",@"字典转模型",@"模型转字典",@"动态方法解析", nil];
     [self addButtonsWithTitle:btnTitleArr];
+    
+    [self setupViews];
+}
+
+- (void)setupViews {
+    _testView = [[NNValidationView alloc] initWithFrame:CGRectMake((self.view.frame.size.width - 100) / 2, 380, 100, 40) andCharCount:4 andLineCount:4];
+    [self.view addSubview:_testView];
+    
+    __weak typeof(self) weakSelf = self;
+    /// 返回验证码数字
+    _testView.changeValidationCodeBlock = ^(void){
+        NSLog(@"验证码被点击了：%@", weakSelf.testView.charString);
+    };
+    NSLog(@"第一次打印：%@", self.testView.charString);
 }
 
 - (void)btnPressed:(UIButton *)btn{
@@ -87,13 +103,13 @@
                          [NSArray arrayWithObjects:[NSDictionary dictionaryWithObjectsAndKeys:@"东食堂",@"name",nil],
                           [NSDictionary dictionaryWithObjectsAndKeys:@"西食堂",@"name",nil], nil],@"diningRoom",nil];
     
-    _model =  [TestModel objectWithDictionary:dic];
+    _model =  [TestModel aa_modelWithDictionary:dic];
     NSLog(@"%@",_model.name);
 }
 
 - (void)modelToDictinary{
     /*模型转字典*/
-    NSDictionary *modelDic = [TestModel dictionaryWithObject:_model];
+    NSDictionary *modelDic = [_model dictionaryWithModel];
     NSLog(@"%@",modelDic);
 }
 
