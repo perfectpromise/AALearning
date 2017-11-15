@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		546CE66A1FA07B82005EE711 /* AAGravityBehaviorCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 546CE6691FA07B82005EE711 /* AAGravityBehaviorCtrl.m */; };
+		546CE66E1FA07D78005EE711 /* ball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 546CE66D1FA07D78005EE711 /* ball.jpg */; };
+		546CE6741FA08381005EE711 /* read.txt in Resources */ = {isa = PBXBuildFile; fileRef = 546CE6731FA08381005EE711 /* read.txt */; };
 		A9E32E11F72CFBBC6266AAFD /* libPods-AALearning.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D106CFCD215D332161E804 /* libPods-AALearning.a */; };
 		CD0957831F32A899004CA5BD /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD09577E1F32A899004CA5BD /* BaseViewController.m */; };
 		CD0957841F32A899004CA5BD /* AANavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0957801F32A899004CA5BD /* AANavigationController.m */; };
@@ -71,6 +74,10 @@
 
 /* Begin PBXFileReference section */
 		0307362ADD7CF64563990E75 /* Pods-AALearning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AALearning.release.xcconfig"; path = "Pods/Target Support Files/Pods-AALearning/Pods-AALearning.release.xcconfig"; sourceTree = "<group>"; };
+		546CE6681FA07B82005EE711 /* AAGravityBehaviorCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAGravityBehaviorCtrl.h; sourceTree = "<group>"; };
+		546CE6691FA07B82005EE711 /* AAGravityBehaviorCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAGravityBehaviorCtrl.m; sourceTree = "<group>"; };
+		546CE66D1FA07D78005EE711 /* ball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ball.jpg; sourceTree = "<group>"; };
+		546CE6731FA08381005EE711 /* read.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = read.txt; sourceTree = "<group>"; };
 		63D106CFCD215D332161E804 /* libPods-AALearning.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AALearning.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		799930292052BB9DB157D2E3 /* Pods-AALearning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AALearning.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AALearning/Pods-AALearning.debug.xcconfig"; sourceTree = "<group>"; };
 		CD09577D1F32A899004CA5BD /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
@@ -202,6 +209,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		546CE6651FA06F99005EE711 /* UIKit动力 */ = {
+			isa = PBXGroup;
+			children = (
+				546CE6681FA07B82005EE711 /* AAGravityBehaviorCtrl.h */,
+				546CE6691FA07B82005EE711 /* AAGravityBehaviorCtrl.m */,
+			);
+			path = "UIKit动力";
+			sourceTree = "<group>";
+		};
+		546CE6661FA06FA2005EE711 /* TextKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TextKit;
+			sourceTree = "<group>";
+		};
+		546CE6671FA07B53005EE711 /* Speech */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Speech;
+			sourceTree = "<group>";
+		};
 		B36BE2E2B96BCC4AEB595C70 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -261,6 +291,9 @@
 			children = (
 				CD44E3181F32B695005BED59 /* OtherCtrl.h */,
 				CD44E3191F32B695005BED59 /* OtherCtrl.m */,
+				546CE6671FA07B53005EE711 /* Speech */,
+				546CE6661FA06FA2005EE711 /* TextKit */,
+				546CE6651FA06F99005EE711 /* UIKit动力 */,
 				CDB8B64F1F41975D00F0CE39 /* JSPatch */,
 				CD44E2C61F32B489005BED59 /* KVO */,
 				CD44E2CF1F32B489005BED59 /* RegularExpression */,
@@ -594,6 +627,8 @@
 				CDB8B6531F419E1F00F0CE39 /* Third */,
 				CD7410471F2AD54D006AFCB8 /* Assets.xcassets */,
 				CD7410491F2AD54D006AFCB8 /* LaunchScreen.storyboard */,
+				546CE6731FA08381005EE711 /* read.txt */,
+				546CE66D1FA07D78005EE711 /* ball.jpg */,
 				CD74104C1F2AD54D006AFCB8 /* Info.plist */,
 				CD74103B1F2AD54D006AFCB8 /* Supporting Files */,
 			);
@@ -791,6 +826,8 @@
 				CDFFE1C11F341F3100389B2A /* weibo.json in Resources */,
 				CDFFE1C01F341F3100389B2A /* user.json in Resources */,
 				CD74104B1F2AD54D006AFCB8 /* LaunchScreen.storyboard in Resources */,
+				546CE66E1FA07D78005EE711 /* ball.jpg in Resources */,
+				546CE6741FA08381005EE711 /* read.txt in Resources */,
 				CD7410481F2AD54D006AFCB8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -819,13 +856,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AALearning-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CAEBA64960FD7A761B502305 /* [CP] Copy Pods Resources */ = {
@@ -905,6 +945,7 @@
 				CD44E2EC1F32B489005BED59 /* SwiftCtrl.m in Sources */,
 				CD0957881F32AA7E004CA5BD /* AAGuideViewController.m in Sources */,
 				CDD9A1471F2B383D006B1594 /* Bird.m in Sources */,
+				546CE66A1FA07B82005EE711 /* AAGravityBehaviorCtrl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

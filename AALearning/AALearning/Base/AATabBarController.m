@@ -26,7 +26,7 @@
                               @"MultiThreadCtrl",
                               @"CoreProgrammeCtrl",
                               @"JsonEvaluateCtrl",
-                              @"OtherCtrl",nil];
+                              @"AAGravityBehaviorCtrl",nil];
     NSArray *imgNormalArr = [NSArray arrayWithObjects:@"tabbar_home",@"tabbar_recommend",@"tabbar_mine",@"tabbar_json",@"tabbar_other", nil];
     NSArray *imgSelectedArr = [NSArray arrayWithObjects:@"tabbar_home_s",@"tabbar_recommend_s",@"tabbar_mine_s",@"tabbar_json_s",@"tabbar_other_s", nil];
 
