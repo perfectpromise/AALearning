@@ -10,6 +10,8 @@
 		546CE66A1FA07B82005EE711 /* AAGravityBehaviorCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 546CE6691FA07B82005EE711 /* AAGravityBehaviorCtrl.m */; };
 		546CE66E1FA07D78005EE711 /* ball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 546CE66D1FA07D78005EE711 /* ball.jpg */; };
 		546CE6741FA08381005EE711 /* read.txt in Resources */ = {isa = PBXBuildFile; fileRef = 546CE6731FA08381005EE711 /* read.txt */; };
+		547DE8181FBBD63100ECD579 /* SpeechViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 547DE8171FBBD63100ECD579 /* SpeechViewController.m */; };
+		547DE81B1FBBD63C00ECD579 /* TextKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 547DE81A1FBBD63C00ECD579 /* TextKitViewController.m */; };
 		A9E32E11F72CFBBC6266AAFD /* libPods-AALearning.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D106CFCD215D332161E804 /* libPods-AALearning.a */; };
 		CD0957831F32A899004CA5BD /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD09577E1F32A899004CA5BD /* BaseViewController.m */; };
 		CD0957841F32A899004CA5BD /* AANavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0957801F32A899004CA5BD /* AANavigationController.m */; };
@@ -78,6 +80,10 @@
 		546CE6691FA07B82005EE711 /* AAGravityBehaviorCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAGravityBehaviorCtrl.m; sourceTree = "<group>"; };
 		546CE66D1FA07D78005EE711 /* ball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ball.jpg; sourceTree = "<group>"; };
 		546CE6731FA08381005EE711 /* read.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = read.txt; sourceTree = "<group>"; };
+		547DE8161FBBD63100ECD579 /* SpeechViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpeechViewController.h; sourceTree = "<group>"; };
+		547DE8171FBBD63100ECD579 /* SpeechViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeechViewController.m; sourceTree = "<group>"; };
+		547DE8191FBBD63C00ECD579 /* TextKitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextKitViewController.h; sourceTree = "<group>"; };
+		547DE81A1FBBD63C00ECD579 /* TextKitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextKitViewController.m; sourceTree = "<group>"; };
 		63D106CFCD215D332161E804 /* libPods-AALearning.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AALearning.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		799930292052BB9DB157D2E3 /* Pods-AALearning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AALearning.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AALearning/Pods-AALearning.debug.xcconfig"; sourceTree = "<group>"; };
 		CD09577D1F32A899004CA5BD /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
@@ -221,6 +227,8 @@
 		546CE6661FA06FA2005EE711 /* TextKit */ = {
 			isa = PBXGroup;
 			children = (
+				547DE8191FBBD63C00ECD579 /* TextKitViewController.h */,
+				547DE81A1FBBD63C00ECD579 /* TextKitViewController.m */,
 			);
 			path = TextKit;
 			sourceTree = "<group>";
@@ -228,6 +236,8 @@
 		546CE6671FA07B53005EE711 /* Speech */ = {
 			isa = PBXGroup;
 			children = (
+				547DE8161FBBD63100ECD579 /* SpeechViewController.h */,
+				547DE8171FBBD63100ECD579 /* SpeechViewController.m */,
 			);
 			path = Speech;
 			sourceTree = "<group>";
@@ -901,8 +911,10 @@
 				CD44E2E71F32B489005BED59 /* MJRefreshCtrl.m in Sources */,
 				CD44E2E11F32B489005BED59 /* FishHookCtrl.m in Sources */,
 				CD44E3161F32B5E8005BED59 /* GCDCtrl.m in Sources */,
+				547DE8181FBBD63100ECD579 /* SpeechViewController.m in Sources */,
 				CD44E2E51F32B489005BED59 /* JsonModelCtrl.m in Sources */,
 				CD44E3051F32B518005BED59 /* CoreTextCtrl.m in Sources */,
+				547DE81B1FBBD63C00ECD579 /* TextKitViewController.m in Sources */,
 				CDD9A0E91F2ADF0A006B1594 /* MultiThreadCtrl.m in Sources */,
 				CD44E31A1F32B695005BED59 /* OtherCtrl.m in Sources */,
 				CD44E2ED1F32B489005BED59 /* UMLCtrl.m in Sources */,
